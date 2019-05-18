@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Executor;
+namespace pjmd89\GraphQL\Tests\Executor;
 
-use GraphQL\GraphQL;
-use GraphQL\Tests\Executor\TestClasses\Adder;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\GraphQL;
+use pjmd89\GraphQL\Tests\Executor\TestClasses\Adder;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Schema;
 use PHPUnit\Framework\TestCase;
 use function json_encode;
 use function uniqid;

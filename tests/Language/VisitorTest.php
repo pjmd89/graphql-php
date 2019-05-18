@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Language;
+namespace pjmd89\GraphQL\Tests\Language;
 
-use GraphQL\Language\AST\DocumentNode;
-use GraphQL\Language\AST\FieldNode;
-use GraphQL\Language\AST\NameNode;
-use GraphQL\Language\AST\Node;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\AST\NodeList;
-use GraphQL\Language\AST\OperationDefinitionNode;
-use GraphQL\Language\AST\SelectionSetNode;
-use GraphQL\Language\Parser;
-use GraphQL\Language\Printer;
-use GraphQL\Language\Visitor;
-use GraphQL\Tests\Validator\ValidatorTestCase;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Utils\TypeInfo;
+use pjmd89\GraphQL\Language\AST\DocumentNode;
+use pjmd89\GraphQL\Language\AST\FieldNode;
+use pjmd89\GraphQL\Language\AST\NameNode;
+use pjmd89\GraphQL\Language\AST\Node;
+use pjmd89\GraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQL\Language\AST\NodeList;
+use pjmd89\GraphQL\Language\AST\OperationDefinitionNode;
+use pjmd89\GraphQL\Language\AST\SelectionSetNode;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Language\Printer;
+use pjmd89\GraphQL\Language\Visitor;
+use pjmd89\GraphQL\Tests\Validator\ValidatorTestCase;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Utils\TypeInfo;
 use function array_keys;
 use function array_slice;
 use function count;

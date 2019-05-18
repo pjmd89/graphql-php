@@ -1,9 +1,9 @@
 <?php
-namespace GraphQL\Benchmarks;
+namespace pjmd89\GraphQL\Benchmarks;
 
-use GraphQL\GraphQL;
-use GraphQL\Tests\StarWarsSchema;
-use GraphQL\Type\Introspection;
+use pjmd89\GraphQL\GraphQL;
+use pjmd89\GraphQL\Tests\StarWarsSchema;
+use pjmd89\GraphQL\Type\Introspection;
 
 /**
  * @BeforeMethods({"setIntroQuery"})

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Server;
+namespace pjmd89\GraphQL\Tests\Server;
 
-use GraphQL\Deferred;
-use GraphQL\Error\UserError;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\Deferred;
+use pjmd89\GraphQL\Error\UserError;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Schema;
 use PHPUnit\Framework\TestCase;
 use function trigger_error;
 use const E_USER_DEPRECATED;

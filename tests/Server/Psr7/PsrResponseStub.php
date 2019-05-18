@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Server\Psr7;
+namespace pjmd89\GraphQL\Tests\Server\Psr7;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;

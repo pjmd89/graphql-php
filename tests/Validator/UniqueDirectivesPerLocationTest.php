@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Validator;
+namespace pjmd89\GraphQL\Tests\Validator;
 
-use GraphQL\Validator\Rules\UniqueDirectivesPerLocation;
+use pjmd89\GraphQL\Validator\Rules\UniqueDirectivesPerLocation;
 
 class UniqueDirectivesPerLocationTest extends ValidatorTestCase
 {

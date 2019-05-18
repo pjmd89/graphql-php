@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Type;
+namespace pjmd89\GraphQL\Tests\Type;
 
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Tests\Type\TestClasses\MyCustomType;
-use GraphQL\Tests\Type\TestClasses\OtherCustom;
-use GraphQL\Type\Definition\CustomScalarType;
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\InputObjectType;
-use GraphQL\Type\Definition\InterfaceType;
-use GraphQL\Type\Definition\ListOfType;
-use GraphQL\Type\Definition\NonNull;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\UnionType;
-use GraphQL\Type\Schema;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQL\Tests\Type\TestClasses\MyCustomType;
+use pjmd89\GraphQL\Tests\Type\TestClasses\OtherCustom;
+use pjmd89\GraphQL\Type\Definition\CustomScalarType;
+use pjmd89\GraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQL\Type\Definition\InputObjectType;
+use pjmd89\GraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQL\Type\Definition\ListOfType;
+use pjmd89\GraphQL\Type\Definition\NonNull;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\UnionType;
+use pjmd89\GraphQL\Type\Schema;
+use pjmd89\GraphQL\Utils\Utils;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 use Throwable;

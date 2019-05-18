@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Language;
+namespace pjmd89\GraphQL\Tests\Language;
 
-use GraphQL\Language\Token;
+use pjmd89\GraphQL\Language\Token;
 use PHPUnit\Framework\TestCase;
 
 class TokenTest extends TestCase

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Executor;
+namespace pjmd89\GraphQL\Tests\Executor;
 
-use GraphQL\Executor\ExecutionResult;
+use pjmd89\GraphQL\Executor\ExecutionResult;
 use PHPUnit\Framework\TestCase;
 
 class ExecutionResultTest extends TestCase

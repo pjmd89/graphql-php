@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Validator;
+namespace pjmd89\GraphQL\Tests\Validator;
 
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\Parser;
-use GraphQL\Validator\DocumentValidator;
-use GraphQL\Validator\Rules\CustomValidationRule;
-use GraphQL\Validator\Rules\QueryComplexity;
-use GraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQL\Validator\Rules\CustomValidationRule;
+use pjmd89\GraphQL\Validator\Rules\QueryComplexity;
+use pjmd89\GraphQL\Validator\ValidationContext;
 use function count;
 
 class QueryComplexityTest extends QuerySecurityTestCase

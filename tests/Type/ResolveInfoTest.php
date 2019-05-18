@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Type;
+namespace pjmd89\GraphQL\Tests\Type;
 
-use GraphQL\GraphQL;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\ResolveInfo;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\GraphQL;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\ResolveInfo;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Schema;
 use PHPUnit\Framework\TestCase;
 
 class ResolveInfoTest extends TestCase

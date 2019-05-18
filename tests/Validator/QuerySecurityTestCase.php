@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Validator;
+namespace pjmd89\GraphQL\Tests\Validator;
 
-use GraphQL\Error\Error;
-use GraphQL\Error\FormattedError;
-use GraphQL\Language\Parser;
-use GraphQL\Type\Introspection;
-use GraphQL\Validator\DocumentValidator;
-use GraphQL\Validator\Rules\QuerySecurityRule;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQL\Error\FormattedError;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Type\Introspection;
+use pjmd89\GraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQL\Validator\Rules\QuerySecurityRule;
 use PHPUnit\Framework\TestCase;
 use function array_map;
 

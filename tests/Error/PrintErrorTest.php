@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Error;
+namespace pjmd89\GraphQL\Tests\Error;
 
-use GraphQL\Error\Error;
-use GraphQL\Error\FormattedError;
-use GraphQL\Language\Parser;
-use GraphQL\Language\Source;
-use GraphQL\Language\SourceLocation;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQL\Error\FormattedError;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Language\Source;
+use pjmd89\GraphQL\Language\SourceLocation;
 use PHPUnit\Framework\TestCase;
 
 class PrintErrorTest extends TestCase

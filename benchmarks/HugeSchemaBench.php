@@ -1,11 +1,11 @@
 <?php
-namespace GraphQL\Benchmarks;
+namespace pjmd89\GraphQL\Benchmarks;
 
-use GraphQL\Benchmarks\Utils\QueryGenerator;
-use GraphQL\Benchmarks\Utils\SchemaGenerator;
-use GraphQL\GraphQL;
-use GraphQL\Type\Schema;
-use GraphQL\Type\SchemaConfig;
+use pjmd89\GraphQL\Benchmarks\Utils\QueryGenerator;
+use pjmd89\GraphQL\Benchmarks\Utils\SchemaGenerator;
+use pjmd89\GraphQL\GraphQL;
+use pjmd89\GraphQL\Type\Schema;
+use pjmd89\GraphQL\Type\SchemaConfig;
 
 /**
  * @BeforeMethods({"setUp"})

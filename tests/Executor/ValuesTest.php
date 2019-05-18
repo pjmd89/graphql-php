@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Executor;
+namespace pjmd89\GraphQL\Tests\Executor;
 
-use GraphQL\Executor\Values;
-use GraphQL\Language\AST\NamedTypeNode;
-use GraphQL\Language\AST\NameNode;
-use GraphQL\Language\AST\VariableDefinitionNode;
-use GraphQL\Language\AST\VariableNode;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\Executor\Values;
+use pjmd89\GraphQL\Language\AST\NamedTypeNode;
+use pjmd89\GraphQL\Language\AST\NameNode;
+use pjmd89\GraphQL\Language\AST\VariableDefinitionNode;
+use pjmd89\GraphQL\Language\AST\VariableNode;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Schema;
 use PHPUnit\Framework\TestCase;
 use function count;
 use function var_export;

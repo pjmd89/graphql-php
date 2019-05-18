@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Utils;
+namespace pjmd89\GraphQL\Tests\Utils;
 
-use GraphQL\Language\Parser;
-use GraphQL\Utils\AST;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Utils\AST;
 use PHPUnit\Framework\TestCase;
 
 class AstFromValueUntypedTest extends TestCase

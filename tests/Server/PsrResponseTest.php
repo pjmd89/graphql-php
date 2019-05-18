@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Server;
+namespace pjmd89\GraphQL\Tests\Server;
 
-use GraphQL\Executor\ExecutionResult;
-use GraphQL\Server\Helper;
-use GraphQL\Tests\Server\Psr7\PsrResponseStub;
-use GraphQL\Tests\Server\Psr7\PsrStreamStub;
+use pjmd89\GraphQL\Executor\ExecutionResult;
+use pjmd89\GraphQL\Server\Helper;
+use pjmd89\GraphQL\Tests\Server\Psr7\PsrResponseStub;
+use pjmd89\GraphQL\Tests\Server\Psr7\PsrStreamStub;
 use PHPUnit\Framework\TestCase;
 use function json_encode;
 

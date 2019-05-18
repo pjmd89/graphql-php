@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests;
+namespace pjmd89\GraphQL\Tests;
 
-use GraphQL\Language\Parser;
-use GraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Validator\DocumentValidator;
 use PHPUnit\Framework\TestCase;
 
 class StarWarsValidationTest extends TestCase

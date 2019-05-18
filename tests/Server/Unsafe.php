@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Server;
+namespace pjmd89\GraphQL\Tests\Server;
 
 use Exception;
-use GraphQL\Error\ClientAware;
+use pjmd89\GraphQL\Error\ClientAware;
 
 class Unsafe extends Exception implements ClientAware
 {

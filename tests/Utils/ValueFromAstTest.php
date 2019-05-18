@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Utils;
+namespace pjmd89\GraphQL\Tests\Utils;
 
-use GraphQL\Language\Parser;
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\InputObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Utils\AST;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQL\Type\Definition\InputObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Utils\AST;
+use pjmd89\GraphQL\Utils\Utils;
 use PHPUnit\Framework\TestCase;
 
 class ValueFromAstTest extends TestCase

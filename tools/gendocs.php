@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . '/../vendor/autoload.php';
 
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Utils\Utils;
 
 $outputFile = __DIR__  . '/../docs/reference.md';
 

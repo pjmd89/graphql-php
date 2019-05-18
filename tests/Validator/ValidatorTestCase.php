@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Validator;
+namespace pjmd89\GraphQL\Tests\Validator;
 
 use Exception;
-use GraphQL\Language\Parser;
-use GraphQL\Type\Definition\CustomScalarType;
-use GraphQL\Type\Definition\Directive;
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\InputObjectType;
-use GraphQL\Type\Definition\InterfaceType;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\UnionType;
-use GraphQL\Type\Schema;
-use GraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Type\Definition\CustomScalarType;
+use pjmd89\GraphQL\Type\Definition\Directive;
+use pjmd89\GraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQL\Type\Definition\InputObjectType;
+use pjmd89\GraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\UnionType;
+use pjmd89\GraphQL\Type\Schema;
+use pjmd89\GraphQL\Validator\DocumentValidator;
 use PHPUnit\Framework\TestCase;
 use function array_map;
 

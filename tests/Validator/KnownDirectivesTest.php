@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Validator;
+namespace pjmd89\GraphQL\Tests\Validator;
 
-use GraphQL\Error\FormattedError;
-use GraphQL\Language\SourceLocation;
-use GraphQL\Validator\Rules\KnownDirectives;
+use pjmd89\GraphQL\Error\FormattedError;
+use pjmd89\GraphQL\Language\SourceLocation;
+use pjmd89\GraphQL\Validator\Rules\KnownDirectives;
 
 class KnownDirectivesTest extends ValidatorTestCase
 {

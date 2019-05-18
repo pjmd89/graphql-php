@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests;
+namespace pjmd89\GraphQL\Tests;
 
 /**
  * This is designed to be an end-to-end test, demonstrating
@@ -16,13 +16,13 @@ namespace GraphQL\Tests;
  */
 
 use Exception;
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\InterfaceType;
-use GraphQL\Type\Definition\NonNull;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\ResolveInfo;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQL\Type\Definition\NonNull;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\ResolveInfo;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Schema;
 use function array_intersect_key;
 use function array_map;
 

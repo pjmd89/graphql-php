@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Type;
+namespace pjmd89\GraphQL\Tests\Type;
 
-use GraphQL\Error\Error;
-use GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQL\Type\Definition\Type;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 

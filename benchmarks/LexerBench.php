@@ -1,10 +1,10 @@
 <?php
-namespace GraphQL\Benchmarks;
+namespace pjmd89\GraphQL\Benchmarks;
 
-use GraphQL\Language\Lexer;
-use GraphQL\Language\Source;
-use GraphQL\Language\Token;
-use GraphQL\Type\Introspection;
+use pjmd89\GraphQL\Language\Lexer;
+use pjmd89\GraphQL\Language\Source;
+use pjmd89\GraphQL\Language\Token;
+use pjmd89\GraphQL\Type\Introspection;
 
 /**
  * @BeforeMethods({"setUp"})

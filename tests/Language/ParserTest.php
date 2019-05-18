@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Language;
+namespace pjmd89\GraphQL\Tests\Language;
 
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Error\SyntaxError;
-use GraphQL\Language\AST\ArgumentNode;
-use GraphQL\Language\AST\FieldNode;
-use GraphQL\Language\AST\NameNode;
-use GraphQL\Language\AST\Node;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\AST\NodeList;
-use GraphQL\Language\AST\SelectionSetNode;
-use GraphQL\Language\AST\StringValueNode;
-use GraphQL\Language\Parser;
-use GraphQL\Language\Source;
-use GraphQL\Language\SourceLocation;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQL\Error\SyntaxError;
+use pjmd89\GraphQL\Language\AST\ArgumentNode;
+use pjmd89\GraphQL\Language\AST\FieldNode;
+use pjmd89\GraphQL\Language\AST\NameNode;
+use pjmd89\GraphQL\Language\AST\Node;
+use pjmd89\GraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQL\Language\AST\NodeList;
+use pjmd89\GraphQL\Language\AST\SelectionSetNode;
+use pjmd89\GraphQL\Language\AST\StringValueNode;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Language\Source;
+use pjmd89\GraphQL\Language\SourceLocation;
+use pjmd89\GraphQL\Utils\Utils;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 use function file_get_contents;

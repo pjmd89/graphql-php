@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Executor\TestClasses;
+namespace pjmd89\GraphQL\Tests\Executor\TestClasses;
 
 class NotSpecial
 {

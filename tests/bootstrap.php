@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests;
+namespace pjmd89\GraphQL\Tests;
 
-use GraphQL\Executor\Executor;
-use GraphQL\Experimental\Executor\CoroutineExecutor;
+use pjmd89\GraphQL\Executor\Executor;
+use pjmd89\GraphQL\Experimental\Executor\CoroutineExecutor;
 use function getenv;
 
 require_once __DIR__ . '/../vendor/autoload.php';

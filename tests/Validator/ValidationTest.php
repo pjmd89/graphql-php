@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Validator;
+namespace pjmd89\GraphQL\Tests\Validator;
 
 class ValidationTest extends ValidatorTestCase
 {

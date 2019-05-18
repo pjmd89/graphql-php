@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Validator;
+namespace pjmd89\GraphQL\Tests\Validator;
 
-use GraphQL\Validator\Rules\QueryDepth;
+use pjmd89\GraphQL\Validator\Rules\QueryDepth;
 use function sprintf;
 use function str_replace;
 

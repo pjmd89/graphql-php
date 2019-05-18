@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Utils;
+namespace pjmd89\GraphQL\Tests\Utils;
 
-use GraphQL\Language\Parser;
-use GraphQL\Language\SourceLocation;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Language\SourceLocation;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Validator\DocumentValidator;
 use PHPUnit\Framework\TestCase;
 
 class IsValidLiteralValueTest extends TestCase

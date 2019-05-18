@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Executor\Promise;
+namespace pjmd89\GraphQL\Tests\Executor\Promise;
 
 use Exception;
-use GraphQL\Deferred;
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Executor\Promise\Adapter\SyncPromise;
-use GraphQL\Executor\Promise\Adapter\SyncPromiseAdapter;
-use GraphQL\Executor\Promise\Promise;
+use pjmd89\GraphQL\Deferred;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQL\Executor\Promise\Adapter\SyncPromise;
+use pjmd89\GraphQL\Executor\Promise\Adapter\SyncPromiseAdapter;
+use pjmd89\GraphQL\Executor\Promise\Promise;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 use Throwable;

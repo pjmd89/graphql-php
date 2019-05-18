@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Type\TestClasses;
+namespace pjmd89\GraphQL\Tests\Type\TestClasses;
 
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
 
 class MyCustomType extends ObjectType
 {

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Language;
+namespace pjmd89\GraphQL\Tests\Language;
 
-use GraphQL\Error\SyntaxError;
-use GraphQL\Language\Lexer;
-use GraphQL\Language\Source;
-use GraphQL\Language\SourceLocation;
-use GraphQL\Language\Token;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\SyntaxError;
+use pjmd89\GraphQL\Language\Lexer;
+use pjmd89\GraphQL\Language\Source;
+use pjmd89\GraphQL\Language\SourceLocation;
+use pjmd89\GraphQL\Language\Token;
+use pjmd89\GraphQL\Utils\Utils;
 use PHPUnit\Framework\TestCase;
 use function count;
 use function json_decode;

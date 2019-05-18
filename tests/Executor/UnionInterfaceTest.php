@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Executor;
+namespace pjmd89\GraphQL\Tests\Executor;
 
-use GraphQL\Executor\Executor;
-use GraphQL\GraphQL;
-use GraphQL\Language\Parser;
-use GraphQL\Tests\Executor\TestClasses\Cat;
-use GraphQL\Tests\Executor\TestClasses\Dog;
-use GraphQL\Tests\Executor\TestClasses\Person;
-use GraphQL\Type\Definition\InterfaceType;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\ResolveInfo;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\UnionType;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\Executor\Executor;
+use pjmd89\GraphQL\GraphQL;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Tests\Executor\TestClasses\Cat;
+use pjmd89\GraphQL\Tests\Executor\TestClasses\Dog;
+use pjmd89\GraphQL\Tests\Executor\TestClasses\Person;
+use pjmd89\GraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\ResolveInfo;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\UnionType;
+use pjmd89\GraphQL\Type\Schema;
 use PHPUnit\Framework\TestCase;
 
 class UnionInterfaceTest extends TestCase

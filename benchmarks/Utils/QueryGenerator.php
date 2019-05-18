@@ -1,18 +1,18 @@
 <?php
-namespace GraphQL\Benchmarks\Utils;
+namespace pjmd89\GraphQL\Benchmarks\Utils;
 
-use GraphQL\Language\AST\DocumentNode;
-use GraphQL\Language\AST\FieldNode;
-use GraphQL\Language\AST\NameNode;
-use GraphQL\Language\AST\OperationDefinitionNode;
-use GraphQL\Language\AST\SelectionSetNode;
-use GraphQL\Language\Printer;
-use GraphQL\Type\Definition\FieldDefinition;
-use GraphQL\Type\Definition\InterfaceType;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\WrappingType;
-use GraphQL\Type\Schema;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Language\AST\DocumentNode;
+use pjmd89\GraphQL\Language\AST\FieldNode;
+use pjmd89\GraphQL\Language\AST\NameNode;
+use pjmd89\GraphQL\Language\AST\OperationDefinitionNode;
+use pjmd89\GraphQL\Language\AST\SelectionSetNode;
+use pjmd89\GraphQL\Language\Printer;
+use pjmd89\GraphQL\Type\Definition\FieldDefinition;
+use pjmd89\GraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\WrappingType;
+use pjmd89\GraphQL\Type\Schema;
+use pjmd89\GraphQL\Utils\Utils;
 use function count;
 use function max;
 use function round;

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Executor\TestClasses;
+namespace pjmd89\GraphQL\Tests\Executor\TestClasses;
 
-use GraphQL\Error\Error;
-use GraphQL\Type\Definition\ScalarType;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQL\Type\Definition\ScalarType;
+use pjmd89\GraphQL\Utils\Utils;
 
 class ComplexScalar extends ScalarType
 {

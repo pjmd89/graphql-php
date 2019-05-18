@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Executor;
+namespace pjmd89\GraphQL\Tests\Executor;
 
-use GraphQL\Deferred;
-use GraphQL\Executor\Executor;
-use GraphQL\Language\Parser;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\ResolveInfo;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Schema;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Deferred;
+use pjmd89\GraphQL\Executor\Executor;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\ResolveInfo;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Schema;
+use pjmd89\GraphQL\Utils\Utils;
 use PHPUnit\Framework\TestCase;
 use function count;
 use function in_array;

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Language;
+namespace pjmd89\GraphQL\Tests\Language;
 
-use GraphQL\Error\SyntaxError;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\Parser;
-use GraphQL\Language\SourceLocation;
+use pjmd89\GraphQL\Error\SyntaxError;
+use pjmd89\GraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Language\SourceLocation;
 use PHPUnit\Framework\TestCase;
 
 class SchemaParserTest extends TestCase

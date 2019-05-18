@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests;
+namespace pjmd89\GraphQL\Tests;
 
 use function array_map;
 

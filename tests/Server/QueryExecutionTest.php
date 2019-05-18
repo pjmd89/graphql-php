@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Server;
+namespace pjmd89\GraphQL\Tests\Server;
 
-use GraphQL\Error\Debug;
-use GraphQL\Error\Error;
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Executor\ExecutionResult;
-use GraphQL\Language\AST\DocumentNode;
-use GraphQL\Language\Parser;
-use GraphQL\Server\Helper;
-use GraphQL\Server\OperationParams;
-use GraphQL\Server\RequestError;
-use GraphQL\Server\ServerConfig;
-use GraphQL\Validator\DocumentValidator;
-use GraphQL\Validator\Rules\CustomValidationRule;
-use GraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Error\Debug;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQL\Executor\ExecutionResult;
+use pjmd89\GraphQL\Language\AST\DocumentNode;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Server\Helper;
+use pjmd89\GraphQL\Server\OperationParams;
+use pjmd89\GraphQL\Server\RequestError;
+use pjmd89\GraphQL\Server\ServerConfig;
+use pjmd89\GraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQL\Validator\Rules\CustomValidationRule;
+use pjmd89\GraphQL\Validator\ValidationContext;
 use stdClass;
 use function count;
 use function sprintf;

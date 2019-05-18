@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Executor;
+namespace pjmd89\GraphQL\Tests\Executor;
 
-use GraphQL\Deferred;
-use GraphQL\Error\FormattedError;
-use GraphQL\Executor\ExecutionResult;
-use GraphQL\Executor\Executor;
-use GraphQL\Executor\Promise\Adapter\SyncPromise;
-use GraphQL\Executor\Promise\Adapter\SyncPromiseAdapter;
-use GraphQL\Executor\Promise\Promise;
-use GraphQL\GraphQL;
-use GraphQL\Language\Parser;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Schema;
-use GraphQL\Utils\Utils;
-use GraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQL\Deferred;
+use pjmd89\GraphQL\Error\FormattedError;
+use pjmd89\GraphQL\Executor\ExecutionResult;
+use pjmd89\GraphQL\Executor\Executor;
+use pjmd89\GraphQL\Executor\Promise\Adapter\SyncPromise;
+use pjmd89\GraphQL\Executor\Promise\Adapter\SyncPromiseAdapter;
+use pjmd89\GraphQL\Executor\Promise\Promise;
+use pjmd89\GraphQL\GraphQL;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Schema;
+use pjmd89\GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Validator\DocumentValidator;
 use PHPUnit\Framework\TestCase;
 
 class SyncTest extends TestCase

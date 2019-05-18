@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Type;
+namespace pjmd89\GraphQL\Tests\Type;
 
 use ArrayObject;
-use GraphQL\GraphQL;
-use GraphQL\Language\SourceLocation;
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Introspection;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\GraphQL;
+use pjmd89\GraphQL\Language\SourceLocation;
+use pjmd89\GraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Introspection;
+use pjmd89\GraphQL\Type\Schema;
 use PHPUnit\Framework\TestCase;
 use function count;
 use function is_array;

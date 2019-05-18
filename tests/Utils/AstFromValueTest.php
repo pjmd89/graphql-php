@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Utils;
+namespace pjmd89\GraphQL\Tests\Utils;
 
-use GraphQL\Language\AST\BooleanValueNode;
-use GraphQL\Language\AST\EnumValueNode;
-use GraphQL\Language\AST\FloatValueNode;
-use GraphQL\Language\AST\IntValueNode;
-use GraphQL\Language\AST\ListValueNode;
-use GraphQL\Language\AST\NameNode;
-use GraphQL\Language\AST\NullValueNode;
-use GraphQL\Language\AST\ObjectFieldNode;
-use GraphQL\Language\AST\ObjectValueNode;
-use GraphQL\Language\AST\StringValueNode;
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\InputObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Utils\AST;
+use pjmd89\GraphQL\Language\AST\BooleanValueNode;
+use pjmd89\GraphQL\Language\AST\EnumValueNode;
+use pjmd89\GraphQL\Language\AST\FloatValueNode;
+use pjmd89\GraphQL\Language\AST\IntValueNode;
+use pjmd89\GraphQL\Language\AST\ListValueNode;
+use pjmd89\GraphQL\Language\AST\NameNode;
+use pjmd89\GraphQL\Language\AST\NullValueNode;
+use pjmd89\GraphQL\Language\AST\ObjectFieldNode;
+use pjmd89\GraphQL\Language\AST\ObjectValueNode;
+use pjmd89\GraphQL\Language\AST\StringValueNode;
+use pjmd89\GraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQL\Type\Definition\InputObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Utils\AST;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 use Throwable;

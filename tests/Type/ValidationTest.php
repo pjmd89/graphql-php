@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Type;
+namespace pjmd89\GraphQL\Tests\Type;
 
-use GraphQL\Error\Error;
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Error\Warning;
-use GraphQL\Language\SourceLocation;
-use GraphQL\Type\Definition\CustomScalarType;
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\InputObjectType;
-use GraphQL\Type\Definition\InterfaceType;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\ScalarType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\UnionType;
-use GraphQL\Type\Schema;
-use GraphQL\Utils\BuildSchema;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQL\Error\Warning;
+use pjmd89\GraphQL\Language\SourceLocation;
+use pjmd89\GraphQL\Type\Definition\CustomScalarType;
+use pjmd89\GraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQL\Type\Definition\InputObjectType;
+use pjmd89\GraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\ScalarType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\UnionType;
+use pjmd89\GraphQL\Type\Schema;
+use pjmd89\GraphQL\Utils\BuildSchema;
+use pjmd89\GraphQL\Utils\Utils;
 use PHPUnit\Framework\TestCase;
 use function array_map;
 use function array_merge;

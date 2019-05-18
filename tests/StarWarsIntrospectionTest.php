@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests;
+namespace pjmd89\GraphQL\Tests;
 
-use GraphQL\GraphQL;
+use pjmd89\GraphQL\GraphQL;
 use PHPUnit\Framework\TestCase;
 
 class StarWarsIntrospectionTest extends TestCase

@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Executor;
+namespace pjmd89\GraphQL\Tests\Executor;
 
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Error\Warning;
-use GraphQL\Executor\ExecutionResult;
-use GraphQL\Executor\Executor;
-use GraphQL\Language\Parser;
-use GraphQL\Tests\Executor\TestClasses\Cat;
-use GraphQL\Tests\Executor\TestClasses\Dog;
-use GraphQL\Type\Definition\CustomScalarType;
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\InputObjectType;
-use GraphQL\Type\Definition\InterfaceType;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\ScalarType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\UnionType;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQL\Error\Warning;
+use pjmd89\GraphQL\Executor\ExecutionResult;
+use pjmd89\GraphQL\Executor\Executor;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Tests\Executor\TestClasses\Cat;
+use pjmd89\GraphQL\Tests\Executor\TestClasses\Dog;
+use pjmd89\GraphQL\Type\Definition\CustomScalarType;
+use pjmd89\GraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQL\Type\Definition\InputObjectType;
+use pjmd89\GraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\ScalarType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\UnionType;
+use pjmd89\GraphQL\Type\Schema;
 use PHPUnit\Framework\Error\Error;
 use PHPUnit\Framework\TestCase;
 use function count;

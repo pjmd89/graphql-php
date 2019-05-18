@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Executor\Promise;
+namespace pjmd89\GraphQL\Tests\Executor\Promise;
 
 use Exception;
-use GraphQL\Executor\Promise\Adapter\SyncPromise;
+use pjmd89\GraphQL\Executor\Promise\Adapter\SyncPromise;
 use PHPUnit\Framework\Error\Error;
 use PHPUnit\Framework\TestCase;
 use Throwable;

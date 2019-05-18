@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests;
+namespace pjmd89\GraphQL\Tests;
 
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Utils\Utils;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 use stdClass;

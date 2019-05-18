@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Validator;
+namespace pjmd89\GraphQL\Tests\Validator;
 
-use GraphQL\Error\FormattedError;
-use GraphQL\Language\SourceLocation;
-use GraphQL\Type\Definition\InterfaceType;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Schema;
-use GraphQL\Validator\Rules\OverlappingFieldsCanBeMerged;
+use pjmd89\GraphQL\Error\FormattedError;
+use pjmd89\GraphQL\Language\SourceLocation;
+use pjmd89\GraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Schema;
+use pjmd89\GraphQL\Validator\Rules\OverlappingFieldsCanBeMerged;
 
 class OverlappingFieldsCanBeMergedTest extends ValidatorTestCase
 {

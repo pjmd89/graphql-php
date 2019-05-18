@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Utils;
+namespace pjmd89\GraphQL\Tests\Utils;
 
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\InputObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Utils\Utils;
-use GraphQL\Utils\Value;
+use pjmd89\GraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQL\Type\Definition\InputObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Utils\Value;
 use PHPUnit\Framework\TestCase;
 
 class CoerceValueTest extends TestCase

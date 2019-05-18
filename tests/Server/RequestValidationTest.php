@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Server;
+namespace pjmd89\GraphQL\Tests\Server;
 
-use GraphQL\Server\Helper;
-use GraphQL\Server\OperationParams;
+use pjmd89\GraphQL\Server\Helper;
+use pjmd89\GraphQL\Server\OperationParams;
 use PHPUnit\Framework\TestCase;
 
 class RequestValidationTest extends TestCase

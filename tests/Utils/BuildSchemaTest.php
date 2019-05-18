@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Utils;
+namespace pjmd89\GraphQL\Tests\Utils;
 
 use Closure;
-use GraphQL\Error\Error;
-use GraphQL\GraphQL;
-use GraphQL\Language\AST\EnumTypeDefinitionNode;
-use GraphQL\Language\AST\InterfaceTypeDefinitionNode;
-use GraphQL\Language\AST\ObjectTypeDefinitionNode;
-use GraphQL\Language\Parser;
-use GraphQL\Language\Printer;
-use GraphQL\Type\Definition\Directive;
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Utils\BuildSchema;
-use GraphQL\Utils\SchemaPrinter;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQL\GraphQL;
+use pjmd89\GraphQL\Language\AST\EnumTypeDefinitionNode;
+use pjmd89\GraphQL\Language\AST\InterfaceTypeDefinitionNode;
+use pjmd89\GraphQL\Language\AST\ObjectTypeDefinitionNode;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Language\Printer;
+use pjmd89\GraphQL\Type\Definition\Directive;
+use pjmd89\GraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Utils\BuildSchema;
+use pjmd89\GraphQL\Utils\SchemaPrinter;
 use PHPUnit\Framework\TestCase;
 use function array_keys;
 use function count;

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Server;
+namespace pjmd89\GraphQL\Tests\Server;
 
-use GraphQL\Executor\ExecutionResult;
-use GraphQL\Server\Helper;
-use GraphQL\Server\ServerConfig;
-use GraphQL\Server\StandardServer;
-use GraphQL\Tests\Server\Psr7\PsrRequestStub;
+use pjmd89\GraphQL\Executor\ExecutionResult;
+use pjmd89\GraphQL\Server\Helper;
+use pjmd89\GraphQL\Server\ServerConfig;
+use pjmd89\GraphQL\Server\StandardServer;
+use pjmd89\GraphQL\Tests\Server\Psr7\PsrRequestStub;
 use function json_encode;
 
 class StandardServerTest extends ServerTestCase

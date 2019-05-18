@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Utils;
+namespace pjmd89\GraphQL\Tests\Utils;
 
-use GraphQL\Error\Error;
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQL\Utils\Utils;
 use PHPUnit\Framework\TestCase;
 
 class AssertValidNameTest extends TestCase

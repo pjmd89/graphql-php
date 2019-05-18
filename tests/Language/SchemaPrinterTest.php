@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Language;
+namespace pjmd89\GraphQL\Tests\Language;
 
-use GraphQL\Language\AST\NameNode;
-use GraphQL\Language\AST\ScalarTypeDefinitionNode;
-use GraphQL\Language\Parser;
-use GraphQL\Language\Printer;
+use pjmd89\GraphQL\Language\AST\NameNode;
+use pjmd89\GraphQL\Language\AST\ScalarTypeDefinitionNode;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Language\Printer;
 use PHPUnit\Framework\TestCase;
 use Throwable;
 use function file_get_contents;

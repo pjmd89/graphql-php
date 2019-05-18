@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Executor;
+namespace pjmd89\GraphQL\Tests\Executor;
 
 use Exception;
-use GraphQL\Deferred;
-use GraphQL\Error\FormattedError;
-use GraphQL\Error\UserError;
-use GraphQL\Executor\Executor;
-use GraphQL\Language\Parser;
-use GraphQL\Language\SourceLocation;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\Deferred;
+use pjmd89\GraphQL\Error\FormattedError;
+use pjmd89\GraphQL\Error\UserError;
+use pjmd89\GraphQL\Executor\Executor;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Language\SourceLocation;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Schema;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
 use function count;

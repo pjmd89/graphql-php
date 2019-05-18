@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Experimental\Executor;
+namespace pjmd89\GraphQL\Tests\Experimental\Executor;
 
-use GraphQL\Error\FormattedError;
-use GraphQL\Experimental\Executor\Collector;
-use GraphQL\Experimental\Executor\Runtime;
-use GraphQL\Language\AST\DocumentNode;
-use GraphQL\Language\AST\Node;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\AST\OperationDefinitionNode;
-use GraphQL\Language\AST\ValueNode;
-use GraphQL\Language\Parser;
-use GraphQL\Tests\StarWarsSchema;
-use GraphQL\Type\Definition\InputType;
-use GraphQL\Type\Schema;
-use GraphQL\Utils\AST;
+use pjmd89\GraphQL\Error\FormattedError;
+use pjmd89\GraphQL\Experimental\Executor\Collector;
+use pjmd89\GraphQL\Experimental\Executor\Runtime;
+use pjmd89\GraphQL\Language\AST\DocumentNode;
+use pjmd89\GraphQL\Language\AST\Node;
+use pjmd89\GraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQL\Language\AST\OperationDefinitionNode;
+use pjmd89\GraphQL\Language\AST\ValueNode;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Tests\StarWarsSchema;
+use pjmd89\GraphQL\Type\Definition\InputType;
+use pjmd89\GraphQL\Type\Schema;
+use pjmd89\GraphQL\Utils\AST;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 use Throwable;

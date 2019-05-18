@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Type;
+namespace pjmd89\GraphQL\Tests\Type;
 
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Type\Definition\CustomScalarType;
-use GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQL\Type\Definition\CustomScalarType;
+use pjmd89\GraphQL\Type\Definition\Type;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 

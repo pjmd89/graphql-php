@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Server;
+namespace pjmd89\GraphQL\Tests\Server;
 
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Server\Helper;
-use GraphQL\Server\OperationParams;
-use GraphQL\Server\RequestError;
-use GraphQL\Tests\Server\Psr7\PsrRequestStub;
-use GraphQL\Tests\Server\Psr7\PsrStreamStub;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQL\Server\Helper;
+use pjmd89\GraphQL\Server\OperationParams;
+use pjmd89\GraphQL\Server\RequestError;
+use pjmd89\GraphQL\Tests\Server\Psr7\PsrRequestStub;
+use pjmd89\GraphQL\Tests\Server\Psr7\PsrStreamStub;
 use PHPUnit\Framework\TestCase;
 use function json_decode;
 use function json_encode;

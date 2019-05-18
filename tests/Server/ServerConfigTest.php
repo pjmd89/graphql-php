@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Server;
+namespace pjmd89\GraphQL\Tests\Server;
 
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Executor\Promise\Adapter\SyncPromiseAdapter;
-use GraphQL\Server\ServerConfig;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQL\Executor\Promise\Adapter\SyncPromiseAdapter;
+use pjmd89\GraphQL\Server\ServerConfig;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Schema;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 

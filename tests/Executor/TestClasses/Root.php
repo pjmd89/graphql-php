@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Executor\TestClasses;
+namespace pjmd89\GraphQL\Tests\Executor\TestClasses;
 
 use Exception;
-use GraphQL\Deferred;
+use pjmd89\GraphQL\Deferred;
 
 class Root
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Language;
+namespace pjmd89\GraphQL\Tests\Language;
 
-use GraphQL\Language\AST\Location;
-use GraphQL\Language\AST\Node;
-use GraphQL\Language\AST\NodeList;
+use pjmd89\GraphQL\Language\AST\Location;
+use pjmd89\GraphQL\Language\AST\Node;
+use pjmd89\GraphQL\Language\AST\NodeList;
 use function get_object_vars;
 use function is_array;
 use function is_scalar;

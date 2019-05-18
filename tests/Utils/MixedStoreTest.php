@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Tests\Utils;
+namespace pjmd89\GraphQL\Tests\Utils;
 
-use GraphQL\Utils\MixedStore;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Utils\MixedStore;
+use pjmd89\GraphQL\Utils\Utils;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 
