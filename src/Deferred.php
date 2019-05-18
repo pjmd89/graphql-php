@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL;
+namespace  pjmd89\GraphQL;
 
 use Exception;
 use  pjmd89\GraphQL\Executor\Promise\Adapter\SyncPromise;

@@ -6,6 +6,7 @@ namespace  pjmd89\GraphQL\Executor;
 
 use ArrayAccess;
 use Closure;
+use  pjmd89\apiGraphQL\Api;
 use  pjmd89\GraphQL\Executor\Promise\Adapter\SyncPromiseAdapter;
 use  pjmd89\GraphQL\Executor\Promise\Promise;
 use  pjmd89\GraphQL\Executor\Promise\PromiseAdapter;
@@ -180,6 +181,10 @@ class Executor
             if (isset($source->{$fieldName})) {
                 $property = $source->{$fieldName};
             }
+        }
+
+        if(Api::isPermissions($source, $args, $context, $info)){
+            $property = Api::executeComponent($source, $args, $context, $info);
         }
 
         return $property instanceof Closure ? $property($source, $args, $context, $info) : $property;

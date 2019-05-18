@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL;
+namespace  pjmd89\GraphQL;
 
 use function trigger_error;
 use const E_USER_DEPRECATED;
