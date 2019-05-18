@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Server;
+namespace  pjmd89\GraphQL\Server;
 
 use function array_change_key_case;
 use function is_string;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Validator\Rules;
+namespace  pjmd89\GraphQL\Validator\Rules;
 
 use GraphQL\Validator\ValidationContext;
 use function class_alias;

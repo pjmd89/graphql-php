@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Language\AST;
+namespace  pjmd89\GraphQL\Language\AST;
 
 class InputObjectTypeDefinitionNode extends Node implements TypeDefinitionNode
 {

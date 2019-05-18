@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Utils;
+namespace  pjmd89\GraphQL\Utils;
 
 use function array_pop;
 use function array_shift;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Error;
+namespace  pjmd89\GraphQL\Error;
 
 use LogicException;
 

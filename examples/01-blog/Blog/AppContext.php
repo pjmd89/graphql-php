@@ -1,5 +1,5 @@
 <?php
-namespace GraphQL\Examples\Blog;
+namespace  pjmd89\GraphQL\Examples\Blog;
 
 use GraphQL\Examples\Blog\Data\User;
 

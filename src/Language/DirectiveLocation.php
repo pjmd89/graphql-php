@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Language;
+namespace  pjmd89\GraphQL\Language;
 
 /**
  * List of available directive locations

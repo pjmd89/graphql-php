@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Type;
+namespace  pjmd89\GraphQL\Type;
 
 class TypeKind
 {

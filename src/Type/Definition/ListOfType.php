@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Type\Definition;
+namespace  pjmd89\GraphQL\Type\Definition;
 
 class ListOfType extends Type implements WrappingType, OutputType, NullableType, InputType
 {

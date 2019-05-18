@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Language\AST;
+namespace  pjmd89\GraphQL\Language\AST;
 
 use GraphQL\Utils\Utils;
 use function get_object_vars;

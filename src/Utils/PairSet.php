@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Utils;
+namespace  pjmd89\GraphQL\Utils;
 
 /**
  * A way to keep track of pairs of things when the ordering of the pair does

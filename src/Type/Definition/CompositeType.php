@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Type\Definition;
+namespace  pjmd89\GraphQL\Type\Definition;
 
 /*
 export type GraphQLCompositeType =

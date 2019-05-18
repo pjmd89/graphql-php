@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Language\AST;
+namespace  pjmd89\GraphQL\Language\AST;
 
 class InterfaceTypeExtensionNode extends Node implements TypeExtensionNode
 {

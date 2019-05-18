@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Language\AST;
+namespace  pjmd89\GraphQL\Language\AST;
 
 class StringValueNode extends Node implements ValueNode
 {

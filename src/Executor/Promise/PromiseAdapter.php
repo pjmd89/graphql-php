@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Executor\Promise;
+namespace  pjmd89\GraphQL\Executor\Promise;
 
 use Throwable;
 
