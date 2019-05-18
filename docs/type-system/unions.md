@@ -7,7 +7,7 @@ In **graphql-php** union type is an instance of `GraphQL\Type\Definition\UnionTy
 
 ```php
 <?php
-use GraphQL\Type\Definition\UnionType;
+use  pjmd89\GraphQL\Type\Definition\UnionType;
 
 $searchResultType = new UnionType([
     'name' => 'SearchResult',

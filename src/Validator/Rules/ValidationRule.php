@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace  pjmd89\GraphQL\Validator\Rules;
 
-use GraphQL\Validator\ValidationContext;
+use  pjmd89\GraphQL\Validator\ValidationContext;
 use function class_alias;
 
 abstract class ValidationRule

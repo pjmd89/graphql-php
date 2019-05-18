@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace  pjmd89\GraphQL\Error;
 
-use GraphQL\Language\Source;
+use  pjmd89\GraphQL\Language\Source;
 use function sprintf;
 
 class SyntaxError extends Error

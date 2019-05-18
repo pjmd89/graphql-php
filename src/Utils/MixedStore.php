@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace  pjmd89\GraphQL\Utils;
 
 use ArrayAccess;
-use GraphQL\Type\Definition\EnumValueDefinition;
+use  pjmd89\GraphQL\Type\Definition\EnumValueDefinition;
 use InvalidArgumentException;
 use SplObjectStorage;
 use function array_key_exists;

@@ -1,7 +1,7 @@
 <?php
 namespace  pjmd89\GraphQL\Examples\Blog\Type\Enum;
 
-use GraphQL\Type\Definition\EnumType;
+use  pjmd89\GraphQL\Type\Definition\EnumType;
 
 class ContentFormatEnum extends EnumType
 {

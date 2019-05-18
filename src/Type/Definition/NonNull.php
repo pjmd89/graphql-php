@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace  pjmd89\GraphQL\Type\Definition;
 
-use GraphQL\Utils\Utils;
+use  pjmd89\GraphQL\Utils\Utils;
 
 class NonNull extends Type implements WrappingType, OutputType, InputType
 {

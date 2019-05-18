@@ -1,7 +1,7 @@
 <?php
 namespace  pjmd89\GraphQL\Examples\Blog;
 
-use GraphQL\Examples\Blog\Data\User;
+use  pjmd89\GraphQL\Examples\Blog\Data\User;
 
 /**
  * Class AppContext

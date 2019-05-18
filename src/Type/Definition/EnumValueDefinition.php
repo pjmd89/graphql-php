@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace  pjmd89\GraphQL\Type\Definition;
 
-use GraphQL\Language\AST\EnumValueDefinitionNode;
+use  pjmd89\GraphQL\Language\AST\EnumValueDefinitionNode;
 
 class EnumValueDefinition
 {

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace  pjmd89\GraphQL\Executor;
 
-use GraphQL\Executor\Promise\Promise;
+use  pjmd89\GraphQL\Executor\Promise\Promise;
 
 interface ExecutorImplementation
 {

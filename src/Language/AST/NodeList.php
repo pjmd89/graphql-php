@@ -7,7 +7,7 @@ namespace  pjmd89\GraphQL\Language\AST;
 use ArrayAccess;
 use Countable;
 use Generator;
-use GraphQL\Utils\AST;
+use  pjmd89\GraphQL\Utils\AST;
 use IteratorAggregate;
 use function array_merge;
 use function array_splice;

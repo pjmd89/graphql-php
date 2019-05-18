@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace  pjmd89\GraphQL\Language;
 
-use GraphQL\Utils\Utils;
+use  pjmd89\GraphQL\Utils\Utils;
 use function is_string;
 use function json_decode;
 use function mb_strlen;

@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace  pjmd89\GraphQL\Server;
 
 use Exception;
-use GraphQL\Error\ClientAware;
+use  pjmd89\GraphQL\Error\ClientAware;
 
 class RequestError extends Exception implements ClientAware
 {

@@ -6,12 +6,12 @@ namespace  pjmd89\GraphQL\Executor;
 
 use ArrayAccess;
 use Closure;
-use GraphQL\Executor\Promise\Adapter\SyncPromiseAdapter;
-use GraphQL\Executor\Promise\Promise;
-use GraphQL\Executor\Promise\PromiseAdapter;
-use GraphQL\Language\AST\DocumentNode;
-use GraphQL\Type\Definition\ResolveInfo;
-use GraphQL\Type\Schema;
+use  pjmd89\GraphQL\Executor\Promise\Adapter\SyncPromiseAdapter;
+use  pjmd89\GraphQL\Executor\Promise\Promise;
+use  pjmd89\GraphQL\Executor\Promise\PromiseAdapter;
+use  pjmd89\GraphQL\Language\AST\DocumentNode;
+use  pjmd89\GraphQL\Type\Definition\ResolveInfo;
+use  pjmd89\GraphQL\Type\Schema;
 use function is_array;
 use function is_object;
 

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace  pjmd89\GraphQL\Language\AST;
 
-use GraphQL\Utils\Utils;
+use  pjmd89\GraphQL\Utils\Utils;
 use function get_object_vars;
 use function is_array;
 use function is_scalar;

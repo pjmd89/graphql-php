@@ -2,7 +2,7 @@
 namespace  pjmd89\GraphQL\Examples\Blog\Data;
 
 
-use GraphQL\Utils\Utils;
+use  pjmd89\GraphQL\Utils\Utils;
 
 class Comment
 {
