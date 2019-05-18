@@ -183,8 +183,8 @@ class Executor
             }
         }
 
-        if(Api::isPermissions($source, $args, $context, $info)){
-            $property = Api::executeComponent($source, $args, $context, $info);
+        if(Api::isPermissions($info)){
+            $property = Api::executeComponent($args);
         }
 
         return $property instanceof Closure ? $property($source, $args, $context, $info) : $property;
