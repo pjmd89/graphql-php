@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Validator\Rules;
+namespace pjmd89\GraphQL\Validator\Rules;
 
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\FragmentSpreadNode;
-use GraphQL\Language\AST\InlineFragmentNode;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Type\Definition\AbstractType;
-use GraphQL\Type\Definition\CompositeType;
-use GraphQL\Type\Definition\InterfaceType;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\UnionType;
-use GraphQL\Type\Schema;
-use GraphQL\Utils\TypeInfo;
-use GraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\AST\FragmentSpreadNode;
+use pjmd89\GraphQLGraphQL\Language\AST\InlineFragmentNode;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQLGraphQL\Type\Definition\AbstractType;
+use pjmd89\GraphQLGraphQL\Type\Definition\CompositeType;
+use pjmd89\GraphQLGraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\UnionType;
+use pjmd89\GraphQLGraphQL\Type\Schema;
+use pjmd89\GraphQLGraphQL\Utils\TypeInfo;
+use pjmd89\GraphQLGraphQL\Validator\ValidationContext;
 use function sprintf;
 
 class PossibleFragmentSpreads extends ValidationRule

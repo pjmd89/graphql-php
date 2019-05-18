@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Validator;
+namespace pjmd89\GraphQL\Validator;
 
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\DocumentNode;
-use GraphQL\Language\AST\FragmentDefinitionNode;
-use GraphQL\Language\AST\FragmentSpreadNode;
-use GraphQL\Language\AST\HasSelectionSet;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\AST\OperationDefinitionNode;
-use GraphQL\Language\AST\SelectionSetNode;
-use GraphQL\Language\AST\VariableNode;
-use GraphQL\Language\Visitor;
-use GraphQL\Type\Definition\FieldDefinition;
-use GraphQL\Type\Definition\InputType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Schema;
-use GraphQL\Utils\TypeInfo;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\AST\DocumentNode;
+use pjmd89\GraphQLGraphQL\Language\AST\FragmentDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\FragmentSpreadNode;
+use pjmd89\GraphQLGraphQL\Language\AST\HasSelectionSet;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQLGraphQL\Language\AST\OperationDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\SelectionSetNode;
+use pjmd89\GraphQLGraphQL\Language\AST\VariableNode;
+use pjmd89\GraphQLGraphQL\Language\Visitor;
+use pjmd89\GraphQLGraphQL\Type\Definition\FieldDefinition;
+use pjmd89\GraphQLGraphQL\Type\Definition\InputType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Schema;
+use pjmd89\GraphQLGraphQL\Utils\TypeInfo;
 use SplObjectStorage;
 use function array_pop;
 use function call_user_func_array;

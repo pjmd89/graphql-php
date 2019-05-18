@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Server;
+namespace pjmd89\GraphQL\Server;
 
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Executor\Promise\PromiseAdapter;
-use GraphQL\Type\Schema;
-use GraphQL\Utils\Utils;
-use GraphQL\Validator\Rules\ValidationRule;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQLGraphQL\Executor\Promise\PromiseAdapter;
+use pjmd89\GraphQLGraphQL\Type\Schema;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQLGraphQL\Validator\Rules\ValidationRule;
 use function is_array;
 use function is_callable;
 use function method_exists;

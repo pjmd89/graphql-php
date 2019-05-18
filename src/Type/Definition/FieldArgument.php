@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Type\Definition;
+namespace pjmd89\GraphQL\Type\Definition;
 
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Language\AST\InputValueDefinitionNode;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQLGraphQL\Language\AST\InputValueDefinitionNode;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use function is_array;
 use function is_string;
 use function sprintf;

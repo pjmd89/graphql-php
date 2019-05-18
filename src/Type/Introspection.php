@@ -2,28 +2,28 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Type;
+namespace pjmd89\GraphQL\Type;
 
 use Exception;
-use GraphQL\Language\DirectiveLocation;
-use GraphQL\Language\Printer;
-use GraphQL\Type\Definition\Directive;
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\FieldArgument;
-use GraphQL\Type\Definition\FieldDefinition;
-use GraphQL\Type\Definition\InputObjectField;
-use GraphQL\Type\Definition\InputObjectType;
-use GraphQL\Type\Definition\InterfaceType;
-use GraphQL\Type\Definition\ListOfType;
-use GraphQL\Type\Definition\NonNull;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\ResolveInfo;
-use GraphQL\Type\Definition\ScalarType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\UnionType;
-use GraphQL\Type\Definition\WrappingType;
-use GraphQL\Utils\AST;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Language\DirectiveLocation;
+use pjmd89\GraphQLGraphQL\Language\Printer;
+use pjmd89\GraphQLGraphQL\Type\Definition\Directive;
+use pjmd89\GraphQLGraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQLGraphQL\Type\Definition\FieldArgument;
+use pjmd89\GraphQLGraphQL\Type\Definition\FieldDefinition;
+use pjmd89\GraphQLGraphQL\Type\Definition\InputObjectField;
+use pjmd89\GraphQLGraphQL\Type\Definition\InputObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ListOfType;
+use pjmd89\GraphQLGraphQL\Type\Definition\NonNull;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ResolveInfo;
+use pjmd89\GraphQLGraphQL\Type\Definition\ScalarType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Definition\UnionType;
+use pjmd89\GraphQLGraphQL\Type\Definition\WrappingType;
+use pjmd89\GraphQLGraphQL\Utils\AST;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use function array_filter;
 use function array_key_exists;
 use function array_values;

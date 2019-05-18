@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Type\Definition;
+namespace pjmd89\GraphQL\Type\Definition;
 
 use Exception;
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Language\AST\InputObjectTypeDefinitionNode;
-use GraphQL\Language\AST\InputObjectTypeExtensionNode;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQLGraphQL\Language\AST\InputObjectTypeDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\InputObjectTypeExtensionNode;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use function call_user_func;
 use function is_array;
 use function is_callable;

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Utils;
+namespace pjmd89\GraphQL\Utils;
 
-use GraphQL\Type\Definition\AbstractType;
-use GraphQL\Type\Definition\CompositeType;
-use GraphQL\Type\Definition\ListOfType;
-use GraphQL\Type\Definition\NonNull;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\Type\Definition\AbstractType;
+use pjmd89\GraphQLGraphQL\Type\Definition\CompositeType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ListOfType;
+use pjmd89\GraphQLGraphQL\Type\Definition\NonNull;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Schema;
 
 class TypeComparators
 {

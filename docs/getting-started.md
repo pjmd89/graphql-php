@@ -43,8 +43,8 @@ To do so we need an object type with field `echo`:
 
 ```php
 <?php
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
 
 $queryType = new ObjectType([
     'name' => 'Query',
@@ -75,8 +75,8 @@ Now when our type is ready, let's create GraphQL endpoint file for it **graphql.
 
 ```php
 <?php
-use GraphQL\GraphQL;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQLGraphQL\GraphQL;
+use pjmd89\GraphQLGraphQL\Type\Schema;
 
 $schema = new Schema([
     'query' => $queryType

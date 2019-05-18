@@ -47,8 +47,8 @@ You can always switch to [custom error formatting](https://webonyx.github.io/gra
 It is disabled by default. To enable it, do the following
 ```php
 <?php
-use GraphQL\Executor\Executor;
-use GraphQL\Experimental\Executor\CoroutineExecutor;
+use pjmd89\GraphQL\Executor\Executor;
+use pjmd89\GraphQLGraphQL\Experimental\Executor\CoroutineExecutor;
 
 Executor::setImplementationFactory([CoroutineExecutor::class, 'create']);
 ```
@@ -232,7 +232,7 @@ During development or debugging use `$executionResult->toArray(true)`. It will a
 each error entry in result. If you also want to add `trace` for each error - pass flags instead:
 
 ```
-use GraphQL\Error\FormattedError;
+use pjmd89\GraphQLGraphQL\Error\FormattedError;
 $debug = FormattedError::INCLUDE_DEBUG_MESSAGE | FormattedError::INCLUDE_TRACE;
 $result = GraphQL::executeAndReturnResult(/*args*/)->toArray($debug);
 ```
@@ -266,7 +266,7 @@ If you were using custom validation rules, just wrap them with
 
 Before:
 ```php
-use GraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQLGraphQL\Validator\DocumentValidator;
 
 $myRule = function(ValidationContext $context) {};
 DocumentValidator::validate($schema, $ast, [$myRule]);
@@ -274,8 +274,8 @@ DocumentValidator::validate($schema, $ast, [$myRule]);
 
 After:
 ```php
-use GraphQL\Validator\Rules\CustomValidationRule;
-use GraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQLGraphQL\Validator\Rules\CustomValidationRule;
+use pjmd89\GraphQLGraphQL\Validator\DocumentValidator;
 
 $myRule = new CustomValidationRule('MyRule', function(ValidationContext $context) {});
 DocumentValidator::validate($schema, $ast, [$myRule]);
@@ -285,7 +285,7 @@ Also `DocumentValidator::addRule()` signature changed.
 
 Before the change:
 ```php
-use GraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQLGraphQL\Validator\DocumentValidator;
 
 $myRule = function(ValidationContext $context) {};
 DocumentValidator::addRule('MyRuleName', $myRule);
@@ -293,7 +293,7 @@ DocumentValidator::addRule('MyRuleName', $myRule);
 
 After the change:
 ```php
-use GraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQLGraphQL\Validator\DocumentValidator;
 
 $myRule = new CustomValidationRulefunction('MyRule', ValidationContext $context) {});
 DocumentValidator::addRule($myRule);

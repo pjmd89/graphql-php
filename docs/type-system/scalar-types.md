@@ -4,7 +4,7 @@ exposed as static methods of [`GraphQL\Type\Definition\Type`](../reference.md#gr
 
 ```php
 <?php
-use GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\Type;
 
 // Built-in Scalar types:
 Type::string();  // String type
@@ -42,11 +42,11 @@ Here is an example of a simple **Email** type:
 <?php
 namespace MyApp;
 
-use GraphQL\Error\Error;
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Language\AST\StringValueNode;
-use GraphQL\Type\Definition\ScalarType;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQLGraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Error\InvariantViolation;
+use pjmd89\GraphQLGraphQL\Language\AST\StringValueNode;
+use pjmd89\GraphQLGraphQL\Type\Definition\ScalarType;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 
 class EmailType extends ScalarType
 {
@@ -119,7 +119,7 @@ Or with inline style:
 
 ```php
 <?php
-use GraphQL\Type\Definition\CustomScalarType;
+use pjmd89\GraphQLGraphQL\Type\Definition\CustomScalarType;
 
 $emailType = new CustomScalarType([
     'name' => 'Email',

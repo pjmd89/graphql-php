@@ -5,8 +5,8 @@
 // curl http://localhost:8080 -d '{"query": "mutation { sum(x: 2, y: 2) }" }'
 require_once __DIR__ . '/../../vendor/autoload.php';
 
-use GraphQL\GraphQL;
-use GraphQL\Utils\BuildSchema;
+use pjmd89\GraphQL\GraphQL;
+use pjmd89\GraphQLGraphQL\Utils\BuildSchema;
 
 try {
 

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Validator\Rules;
+namespace pjmd89\GraphQL\Validator\Rules;
 
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\DirectiveNode;
-use GraphQL\Language\AST\Node;
-use GraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\AST\DirectiveNode;
+use pjmd89\GraphQLGraphQL\Language\AST\Node;
+use pjmd89\GraphQLGraphQL\Validator\ValidationContext;
 use function sprintf;
 
 class UniqueDirectivesPerLocation extends ValidationRule

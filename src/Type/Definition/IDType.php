@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Type\Definition;
+namespace pjmd89\GraphQL\Type\Definition;
 
 use Exception;
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\IntValueNode;
-use GraphQL\Language\AST\Node;
-use GraphQL\Language\AST\StringValueNode;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\AST\IntValueNode;
+use pjmd89\GraphQLGraphQL\Language\AST\Node;
+use pjmd89\GraphQLGraphQL\Language\AST\StringValueNode;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use function is_int;
 use function is_object;
 use function is_scalar;

@@ -6,21 +6,21 @@ declare(strict_types=1);
  * Utility for finding breaking/dangerous changes between two schemas.
  */
 
-namespace GraphQL\Utils;
+namespace pjmd89\GraphQL\Utils;
 
-use GraphQL\Type\Definition\Directive;
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\FieldArgument;
-use GraphQL\Type\Definition\InputObjectType;
-use GraphQL\Type\Definition\InterfaceType;
-use GraphQL\Type\Definition\ListOfType;
-use GraphQL\Type\Definition\NamedType;
-use GraphQL\Type\Definition\NonNull;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\ScalarType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\UnionType;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\Type\Definition\Directive;
+use pjmd89\GraphQLGraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQLGraphQL\Type\Definition\FieldArgument;
+use pjmd89\GraphQLGraphQL\Type\Definition\InputObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ListOfType;
+use pjmd89\GraphQLGraphQL\Type\Definition\NamedType;
+use pjmd89\GraphQLGraphQL\Type\Definition\NonNull;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ScalarType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Definition\UnionType;
+use pjmd89\GraphQLGraphQL\Type\Schema;
 use TypeError;
 use function array_flip;
 use function array_key_exists;

@@ -47,7 +47,7 @@ be reported with a full error message.
 For example:
 ```php
 <?php
-use GraphQL\Error\ClientAware;
+use pjmd89\GraphQL\Error\ClientAware;
 
 class MySafeException extends \Exception implements ClientAware
 {
@@ -90,7 +90,7 @@ During development or debugging use `$result->toArray(true)` to add **debugMessa
 each formatted error entry. If you also want to add exception trace - pass flags instead:
 
 ```
-use GraphQL\Error\Debug;
+use pjmd89\GraphQLGraphQL\Error\Debug;
 $debug = Debug::INCLUDE_DEBUG_MESSAGE | Debug::INCLUDE_TRACE;
 $result = GraphQL::executeQuery(/*args*/)->toArray($debug);
 ```
@@ -119,8 +119,8 @@ This will make each error entry to look like this:
 If you prefer the first resolver exception to be re-thrown, use following flags:
 ```php
 <?php
-use GraphQL\GraphQL;
-use GraphQL\Error\Debug;
+use pjmd89\GraphQLGraphQL\GraphQL;
+use pjmd89\GraphQLGraphQL\Error\Debug;
 $debug = Debug::INCLUDE_DEBUG_MESSAGE | Debug::RETHROW_INTERNAL_EXCEPTIONS;
 
 // Following will throw if there was an exception in resolver during execution:
@@ -140,9 +140,9 @@ For example, these are default formatter and handler:
 
 ```php
 <?php
-use GraphQL\GraphQL;
-use GraphQL\Error\Error;
-use GraphQL\Error\FormattedError;
+use pjmd89\GraphQLGraphQL\GraphQL;
+use pjmd89\GraphQLGraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Error\FormattedError;
 
 $myErrorFormatter = function(Error $error) {
     return FormattedError::createFromException($error);
@@ -170,9 +170,9 @@ when it makes sense to return `500` error code for GraphQL endpoint:
 
 ```php
 <?php
-use GraphQL\GraphQL;
-use GraphQL\Type\Schema;
-use GraphQL\Error\FormattedError;
+use pjmd89\GraphQLGraphQL\GraphQL;
+use pjmd89\GraphQLGraphQL\Type\Schema;
+use pjmd89\GraphQLGraphQL\Error\FormattedError;
 
 try {
     $schema = new Schema([

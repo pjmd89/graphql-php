@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Validator\Rules;
+namespace pjmd89\GraphQL\Validator\Rules;
 
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\ArgumentNode;
-use GraphQL\Language\AST\Node;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\AST\NodeList;
-use GraphQL\Utils\Utils;
-use GraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\AST\ArgumentNode;
+use pjmd89\GraphQLGraphQL\Language\AST\Node;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeList;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQLGraphQL\Validator\ValidationContext;
 use function array_map;
 use function count;
 use function sprintf;

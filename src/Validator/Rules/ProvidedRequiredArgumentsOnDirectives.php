@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Validator\Rules;
+namespace pjmd89\GraphQL\Validator\Rules;
 
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\ArgumentNode;
-use GraphQL\Language\AST\DirectiveDefinitionNode;
-use GraphQL\Language\AST\DirectiveNode;
-use GraphQL\Language\AST\NamedTypeNode;
-use GraphQL\Language\AST\Node;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\AST\NodeList;
-use GraphQL\Language\AST\NonNullTypeNode;
-use GraphQL\Type\Definition\FieldArgument;
-use GraphQL\Type\Definition\NonNull;
-use GraphQL\Utils\Utils;
-use GraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\AST\ArgumentNode;
+use pjmd89\GraphQLGraphQL\Language\AST\DirectiveDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\DirectiveNode;
+use pjmd89\GraphQLGraphQL\Language\AST\NamedTypeNode;
+use pjmd89\GraphQLGraphQL\Language\AST\Node;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeList;
+use pjmd89\GraphQLGraphQL\Language\AST\NonNullTypeNode;
+use pjmd89\GraphQLGraphQL\Type\Definition\FieldArgument;
+use pjmd89\GraphQLGraphQL\Type\Definition\NonNull;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQLGraphQL\Validator\ValidationContext;
 use function array_filter;
 use function is_array;
 use function iterator_to_array;

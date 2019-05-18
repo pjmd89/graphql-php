@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Executor;
+namespace pjmd89\GraphQL\Executor;
 
-use GraphQL\Error\Error;
-use GraphQL\Error\FormattedError;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Error\FormattedError;
 use JsonSerializable;
 use function array_map;
 

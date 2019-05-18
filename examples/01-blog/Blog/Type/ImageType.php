@@ -1,11 +1,11 @@
 <?php
-namespace GraphQL\Examples\Blog\Type;
+namespace pjmd89\GraphQL\Examples\Blog\Type;
 
-use GraphQL\Examples\Blog\AppContext;
-use GraphQL\Examples\Blog\Data\Image;
-use GraphQL\Examples\Blog\Types;
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Examples\Blog\AppContext;
+use pjmd89\GraphQLGraphQL\Examples\Blog\Data\Image;
+use pjmd89\GraphQLGraphQL\Examples\Blog\Types;
+use pjmd89\GraphQLGraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
 
 class ImageType extends ObjectType
 {

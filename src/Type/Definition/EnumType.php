@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Type\Definition;
+namespace pjmd89\GraphQL\Type\Definition;
 
 use ArrayObject;
 use Exception;
-use GraphQL\Error\Error;
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Language\AST\EnumTypeDefinitionNode;
-use GraphQL\Language\AST\EnumTypeExtensionNode;
-use GraphQL\Language\AST\EnumValueNode;
-use GraphQL\Language\AST\Node;
-use GraphQL\Utils\MixedStore;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Error\InvariantViolation;
+use pjmd89\GraphQLGraphQL\Language\AST\EnumTypeDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\EnumTypeExtensionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\EnumValueNode;
+use pjmd89\GraphQLGraphQL\Language\AST\Node;
+use pjmd89\GraphQLGraphQL\Utils\MixedStore;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use function is_array;
 use function is_int;
 use function is_string;

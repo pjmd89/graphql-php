@@ -1,11 +1,11 @@
 <?php
-namespace GraphQL\Examples\Blog\Type;
+namespace pjmd89\GraphQL\Examples\Blog\Type;
 
-use GraphQL\Examples\Blog\Data\Story;
-use GraphQL\Examples\Blog\Data\User;
-use GraphQL\Examples\Blog\Data\Image;
-use GraphQL\Examples\Blog\Types;
-use GraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQL\Examples\Blog\Data\Story;
+use pjmd89\GraphQLGraphQL\Examples\Blog\Data\User;
+use pjmd89\GraphQLGraphQL\Examples\Blog\Data\Image;
+use pjmd89\GraphQLGraphQL\Examples\Blog\Types;
+use pjmd89\GraphQLGraphQL\Type\Definition\InterfaceType;
 
 class NodeType extends InterfaceType
 {

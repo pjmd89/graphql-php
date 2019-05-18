@@ -7,7 +7,7 @@ which accepts configuration array in a constructor:
 
 ```php
 <?php
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\Type\Schema;
 
 $schema = new Schema([
     'query' => $queryType, 
@@ -27,8 +27,8 @@ of your API:
 
 ```php
 <?php
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
 
 $queryType = new ObjectType([
     'name' => 'Query',
@@ -97,8 +97,8 @@ use [`GraphQL\Type\SchemaConfig`](../reference.md#graphqltypeschemaconfig) inste
 
 ```php
 <?php
-use GraphQL\Type\SchemaConfig;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQLGraphQL\Type\SchemaConfig;
+use pjmd89\GraphQLGraphQL\Type\Schema;
 
 $config = SchemaConfig::create()
     ->setQuery($myQueryType)
@@ -121,8 +121,8 @@ always return the same instance of a type.
 Usage example:
 ```php
 <?php
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Schema;
 
 class Types
 {

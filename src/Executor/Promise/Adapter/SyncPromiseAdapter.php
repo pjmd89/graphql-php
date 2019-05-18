@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Executor\Promise\Adapter;
+namespace pjmd89\GraphQL\Executor\Promise\Adapter;
 
 use Exception;
-use GraphQL\Deferred;
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Executor\ExecutionResult;
-use GraphQL\Executor\Promise\Promise;
-use GraphQL\Executor\Promise\PromiseAdapter;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Deferred;
+use pjmd89\GraphQLGraphQL\Error\InvariantViolation;
+use pjmd89\GraphQLGraphQL\Executor\ExecutionResult;
+use pjmd89\GraphQLGraphQL\Executor\Promise\Promise;
+use pjmd89\GraphQLGraphQL\Executor\Promise\PromiseAdapter;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use Throwable;
 use function count;
 

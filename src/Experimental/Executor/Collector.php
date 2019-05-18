@@ -2,27 +2,27 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Experimental\Executor;
+namespace pjmd89\GraphQL\Experimental\Executor;
 
 use Generator;
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\DefinitionNode;
-use GraphQL\Language\AST\DocumentNode;
-use GraphQL\Language\AST\FieldNode;
-use GraphQL\Language\AST\FragmentDefinitionNode;
-use GraphQL\Language\AST\FragmentSpreadNode;
-use GraphQL\Language\AST\InlineFragmentNode;
-use GraphQL\Language\AST\Node;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\AST\OperationDefinitionNode;
-use GraphQL\Language\AST\SelectionSetNode;
-use GraphQL\Language\AST\ValueNode;
-use GraphQL\Type\Definition\AbstractType;
-use GraphQL\Type\Definition\Directive;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Introspection;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\AST\DefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\DocumentNode;
+use pjmd89\GraphQLGraphQL\Language\AST\FieldNode;
+use pjmd89\GraphQLGraphQL\Language\AST\FragmentDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\FragmentSpreadNode;
+use pjmd89\GraphQLGraphQL\Language\AST\InlineFragmentNode;
+use pjmd89\GraphQLGraphQL\Language\AST\Node;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQLGraphQL\Language\AST\OperationDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\SelectionSetNode;
+use pjmd89\GraphQLGraphQL\Language\AST\ValueNode;
+use pjmd89\GraphQLGraphQL\Type\Definition\AbstractType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Directive;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Introspection;
+use pjmd89\GraphQLGraphQL\Type\Schema;
 use function sprintf;
 
 /**

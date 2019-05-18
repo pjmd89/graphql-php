@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Validator\Rules;
+namespace pjmd89\GraphQL\Validator\Rules;
 
 use ArrayObject;
-use GraphQL\Error\Error;
-use GraphQL\Executor\Values;
-use GraphQL\Language\AST\FieldNode;
-use GraphQL\Language\AST\FragmentSpreadNode;
-use GraphQL\Language\AST\InlineFragmentNode;
-use GraphQL\Language\AST\Node;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\AST\OperationDefinitionNode;
-use GraphQL\Language\AST\SelectionSetNode;
-use GraphQL\Language\Visitor;
-use GraphQL\Type\Definition\Directive;
-use GraphQL\Type\Definition\FieldDefinition;
-use GraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Executor\Values;
+use pjmd89\GraphQLGraphQL\Language\AST\FieldNode;
+use pjmd89\GraphQLGraphQL\Language\AST\FragmentSpreadNode;
+use pjmd89\GraphQLGraphQL\Language\AST\InlineFragmentNode;
+use pjmd89\GraphQLGraphQL\Language\AST\Node;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQLGraphQL\Language\AST\OperationDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\SelectionSetNode;
+use pjmd89\GraphQLGraphQL\Language\Visitor;
+use pjmd89\GraphQLGraphQL\Type\Definition\Directive;
+use pjmd89\GraphQLGraphQL\Type\Definition\FieldDefinition;
+use pjmd89\GraphQLGraphQL\Validator\ValidationContext;
 use function array_map;
 use function call_user_func_array;
 use function implode;

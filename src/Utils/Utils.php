@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Utils;
+namespace pjmd89\GraphQL\Utils;
 
 use ErrorException;
 use Exception;
-use GraphQL\Error\Error;
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Error\Warning;
-use GraphQL\Language\AST\Node;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\WrappingType;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Error\InvariantViolation;
+use pjmd89\GraphQLGraphQL\Error\Warning;
+use pjmd89\GraphQLGraphQL\Language\AST\Node;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Definition\WrappingType;
 use InvalidArgumentException;
 use LogicException;
 use stdClass;

@@ -5,10 +5,10 @@
 // curl http://localhost:8080 -d '{"query": "mutation { sum(x: 2, y: 2) }" }'
 require_once __DIR__ . '/../../vendor/autoload.php';
 
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Schema;
-use GraphQL\Server\StandardServer;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Schema;
+use pjmd89\GraphQLGraphQL\Server\StandardServer;
 
 try {
     $queryType = new ObjectType([

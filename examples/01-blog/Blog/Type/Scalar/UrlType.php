@@ -1,11 +1,11 @@
 <?php
-namespace GraphQL\Examples\Blog\Type\Scalar;
+namespace pjmd89\GraphQL\Examples\Blog\Type\Scalar;
 
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\Node;
-use GraphQL\Language\AST\StringValueNode;
-use GraphQL\Type\Definition\ScalarType;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\AST\Node;
+use pjmd89\GraphQLGraphQL\Language\AST\StringValueNode;
+use pjmd89\GraphQLGraphQL\Type\Definition\ScalarType;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 
 class UrlType extends ScalarType
 {

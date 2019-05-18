@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Type\Definition;
+namespace pjmd89\GraphQL\Type\Definition;
 
 use Exception;
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\Node;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\AST\Node;
 
 /*
 export type GraphQLLeafType =

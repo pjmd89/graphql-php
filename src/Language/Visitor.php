@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Language;
+namespace pjmd89\GraphQL\Language;
 
 use ArrayObject;
 use Exception;
-use GraphQL\Language\AST\Node;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\AST\NodeList;
-use GraphQL\Utils\TypeInfo;
+use pjmd89\GraphQL\Language\AST\Node;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeList;
+use pjmd89\GraphQLGraphQL\Utils\TypeInfo;
 use SplFixedArray;
 use stdClass;
 use function array_pop;

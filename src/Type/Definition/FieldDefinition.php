@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Type\Definition;
+namespace pjmd89\GraphQL\Type\Definition;
 
-use GraphQL\Error\Error;
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Language\AST\FieldDefinitionNode;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Error\InvariantViolation;
+use pjmd89\GraphQLGraphQL\Language\AST\FieldDefinitionNode;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use function is_array;
 use function is_callable;
 use function is_string;

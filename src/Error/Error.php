@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Error;
+namespace pjmd89\GraphQL\Error;
 
 use Exception;
-use GraphQL\Language\AST\Node;
-use GraphQL\Language\Source;
-use GraphQL\Language\SourceLocation;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Language\AST\Node;
+use pjmd89\GraphQLGraphQL\Language\Source;
+use pjmd89\GraphQLGraphQL\Language\SourceLocation;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use JsonSerializable;
 use Throwable;
 use Traversable;

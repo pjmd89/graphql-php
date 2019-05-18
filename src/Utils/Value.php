@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Utils;
+namespace pjmd89\GraphQL\Utils;
 
 use Exception;
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\Node;
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\InputObjectType;
-use GraphQL\Type\Definition\InputType;
-use GraphQL\Type\Definition\ListOfType;
-use GraphQL\Type\Definition\NonNull;
-use GraphQL\Type\Definition\ScalarType;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\AST\Node;
+use pjmd89\GraphQLGraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQLGraphQL\Type\Definition\InputObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\InputType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ListOfType;
+use pjmd89\GraphQLGraphQL\Type\Definition\NonNull;
+use pjmd89\GraphQLGraphQL\Type\Definition\ScalarType;
 use Throwable;
 use Traversable;
 use function array_key_exists;

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Executor\Promise\Adapter;
+namespace pjmd89\GraphQL\Executor\Promise\Adapter;
 
-use GraphQL\Executor\Promise\Promise;
-use GraphQL\Executor\Promise\PromiseAdapter;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Executor\Promise\Promise;
+use pjmd89\GraphQLGraphQL\Executor\Promise\PromiseAdapter;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use React\Promise\Promise as ReactPromise;
 use React\Promise\PromiseInterface as ReactPromiseInterface;
 use function React\Promise\all;

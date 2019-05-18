@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Utils;
+namespace pjmd89\GraphQL\Utils;
 
-use GraphQL\Error\Error;
-use GraphQL\Language\Printer;
-use GraphQL\Type\Definition\Directive;
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\InputObjectType;
-use GraphQL\Type\Definition\InterfaceType;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\ScalarType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\UnionType;
-use GraphQL\Type\Introspection;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\Printer;
+use pjmd89\GraphQLGraphQL\Type\Definition\Directive;
+use pjmd89\GraphQLGraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQLGraphQL\Type\Definition\InputObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ScalarType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Definition\UnionType;
+use pjmd89\GraphQLGraphQL\Type\Introspection;
+use pjmd89\GraphQLGraphQL\Type\Schema;
 use function array_filter;
 use function array_keys;
 use function array_map;

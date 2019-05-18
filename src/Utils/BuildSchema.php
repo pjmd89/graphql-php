@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Utils;
+namespace pjmd89\GraphQL\Utils;
 
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\DocumentNode;
-use GraphQL\Language\AST\Node;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\AST\SchemaDefinitionNode;
-use GraphQL\Language\Parser;
-use GraphQL\Language\Source;
-use GraphQL\Type\Definition\Directive;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\AST\DocumentNode;
+use pjmd89\GraphQLGraphQL\Language\AST\Node;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQLGraphQL\Language\AST\SchemaDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\Parser;
+use pjmd89\GraphQLGraphQL\Language\Source;
+use pjmd89\GraphQLGraphQL\Type\Definition\Directive;
+use pjmd89\GraphQLGraphQL\Type\Schema;
 use function array_map;
 use function array_reduce;
 use function sprintf;

@@ -2,25 +2,25 @@
 
 declare(strict_types=1);
 
-namespace GraphQL;
+namespace pjmd89\GraphQL;
 
-use GraphQL\Error\Error;
-use GraphQL\Executor\ExecutionResult;
-use GraphQL\Executor\Executor;
-use GraphQL\Executor\Promise\Adapter\SyncPromiseAdapter;
-use GraphQL\Executor\Promise\Promise;
-use GraphQL\Executor\Promise\PromiseAdapter;
-use GraphQL\Executor\ReferenceExecutor;
-use GraphQL\Experimental\Executor\CoroutineExecutor;
-use GraphQL\Language\AST\DocumentNode;
-use GraphQL\Language\Parser;
-use GraphQL\Language\Source;
-use GraphQL\Type\Definition\Directive;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Schema as SchemaType;
-use GraphQL\Validator\DocumentValidator;
-use GraphQL\Validator\Rules\QueryComplexity;
-use GraphQL\Validator\Rules\ValidationRule;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Executor\ExecutionResult;
+use pjmd89\GraphQLGraphQL\Executor\Executor;
+use pjmd89\GraphQLGraphQL\Executor\Promise\Adapter\SyncPromiseAdapter;
+use pjmd89\GraphQLGraphQL\Executor\Promise\Promise;
+use pjmd89\GraphQLGraphQL\Executor\Promise\PromiseAdapter;
+use pjmd89\GraphQLGraphQL\Executor\ReferenceExecutor;
+use pjmd89\GraphQLGraphQL\Experimental\Executor\CoroutineExecutor;
+use pjmd89\GraphQLGraphQL\Language\AST\DocumentNode;
+use pjmd89\GraphQLGraphQL\Language\Parser;
+use pjmd89\GraphQLGraphQL\Language\Source;
+use pjmd89\GraphQLGraphQL\Type\Definition\Directive;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Schema as SchemaType;
+use pjmd89\GraphQLGraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQLGraphQL\Validator\Rules\QueryComplexity;
+use pjmd89\GraphQLGraphQL\Validator\Rules\ValidationRule;
 use function array_values;
 use function trigger_error;
 use const E_USER_DEPRECATED;
@@ -190,7 +190,7 @@ class GraphQL
         ?string $operationName = null
     ) {
         trigger_error(
-            __METHOD__ . ' is deprecated, use GraphQL::executeQuery()->toArray() as a quick replacement',
+            __METHOD__ . ' is deprecated, use pjmd89\GraphQLGraphQL::executeQuery()->toArray() as a quick replacement',
             E_USER_DEPRECATED
         );
 
@@ -235,7 +235,7 @@ class GraphQL
         ?string $operationName = null
     ) {
         trigger_error(
-            __METHOD__ . ' is deprecated, use GraphQL::executeQuery() as a quick replacement',
+            __METHOD__ . ' is deprecated, use pjmd89\GraphQLGraphQL::executeQuery() as a quick replacement',
             E_USER_DEPRECATED
         );
 

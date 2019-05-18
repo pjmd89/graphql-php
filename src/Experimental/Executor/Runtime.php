@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Experimental\Executor;
+namespace pjmd89\GraphQL\Experimental\Executor;
 
-use GraphQL\Language\AST\ValueNode;
-use GraphQL\Type\Definition\InputType;
+use pjmd89\GraphQL\Language\AST\ValueNode;
+use pjmd89\GraphQLGraphQL\Type\Definition\InputType;
 
 /**
  * @internal

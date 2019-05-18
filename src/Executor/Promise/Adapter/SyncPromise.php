@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Executor\Promise\Adapter;
+namespace pjmd89\GraphQL\Executor\Promise\Adapter;
 
 use Exception;
-use GraphQL\Executor\ExecutionResult;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Executor\ExecutionResult;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use SplQueue;
 use Throwable;
 use function is_object;

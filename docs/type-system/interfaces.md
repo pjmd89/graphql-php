@@ -7,8 +7,8 @@ In **graphql-php** interface type is an instance of `GraphQL\Type\Definition\Int
 
 ```php
 <?php
-use GraphQL\Type\Definition\InterfaceType;
-use GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
 
 $character = new InterfaceType([
     'name' => 'Character',
@@ -49,8 +49,8 @@ resolveType | `callback` | **function($value, $context, [ResolveInfo](../referen
 To implement the Interface simply add it to **interfaces** array of Object Type definition:
 ```php
 <?php
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
 
 $humanType = new ObjectType([
     'name' => 'Human',
@@ -95,8 +95,8 @@ sense to reuse field definitions of Interface in Object Types:
 
 ```php
 <?php
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
 
 $humanType = new ObjectType([
     'name' => 'Human',

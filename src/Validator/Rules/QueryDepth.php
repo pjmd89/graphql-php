@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Validator\Rules;
+namespace pjmd89\GraphQL\Validator\Rules;
 
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\Node;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\AST\OperationDefinitionNode;
-use GraphQL\Language\AST\SelectionSetNode;
-use GraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\AST\Node;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQLGraphQL\Language\AST\OperationDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\SelectionSetNode;
+use pjmd89\GraphQLGraphQL\Validator\ValidationContext;
 use function sprintf;
 
 class QueryDepth extends QuerySecurityRule
@@ -99,11 +99,11 @@ class QueryDepth extends QuerySecurityRule
     /**
      * Set max query depth. If equal to 0 no check is done. Must be greater or equal to 0.
      */
-    public function setMaxQueryDepth(int $maxQueryDepth)
+    public function setMaxQueryDepth($maxQueryDepth)
     {
         $this->checkIfGreaterOrEqualToZero('maxQueryDepth', $maxQueryDepth);
 
-        $this->maxQueryDepth = $maxQueryDepth;
+        $this->maxQueryDepth = (int) $maxQueryDepth;
     }
 
     public static function maxQueryDepthErrorMessage($max, $count)

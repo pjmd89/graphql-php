@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Experimental\Executor;
+namespace pjmd89\GraphQL\Experimental\Executor;
 
-use GraphQL\Language\AST\FieldNode;
-use GraphQL\Language\AST\SelectionSetNode;
-use GraphQL\Language\AST\ValueNode;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\ResolveInfo;
+use pjmd89\GraphQL\Language\AST\FieldNode;
+use pjmd89\GraphQLGraphQL\Language\AST\SelectionSetNode;
+use pjmd89\GraphQLGraphQL\Language\AST\ValueNode;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ResolveInfo;
 
 /**
  * @internal

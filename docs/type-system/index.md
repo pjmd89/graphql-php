@@ -16,8 +16,8 @@ Inline definitions:
 <?php
 namespace MyApp;
 
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
 
 $myType = new ObjectType([
     'name' => 'MyType',
@@ -32,8 +32,8 @@ Class per type:
 <?php
 namespace MyApp;
 
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
 
 class MyType extends ObjectType
 {
@@ -105,7 +105,7 @@ And use this registry in type definition:
 ```php
 <?php
 namespace MyApp;
-use GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
 
 class MyAType extends ObjectType
 {

@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Type\Definition;
+namespace pjmd89\GraphQL\Type\Definition;
 
-use GraphQL\Error\Error;
-use GraphQL\Executor\Values;
-use GraphQL\Language\AST\FieldNode;
-use GraphQL\Language\AST\FragmentDefinitionNode;
-use GraphQL\Language\AST\FragmentSpreadNode;
-use GraphQL\Language\AST\InlineFragmentNode;
-use GraphQL\Language\AST\SelectionSetNode;
-use GraphQL\Type\Schema;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Executor\Values;
+use pjmd89\GraphQLGraphQL\Language\AST\FieldNode;
+use pjmd89\GraphQLGraphQL\Language\AST\FragmentDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\FragmentSpreadNode;
+use pjmd89\GraphQLGraphQL\Language\AST\InlineFragmentNode;
+use pjmd89\GraphQLGraphQL\Language\AST\SelectionSetNode;
+use pjmd89\GraphQLGraphQL\Type\Schema;
 use function array_filter;
 use function array_key_exists;
 use function array_keys;

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Type\Definition;
+namespace pjmd89\GraphQL\Type\Definition;
 
 use Exception;
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Language\AST\TypeDefinitionNode;
-use GraphQL\Language\AST\TypeExtensionNode;
-use GraphQL\Type\Introspection;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQLGraphQL\Language\AST\TypeDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\TypeExtensionNode;
+use pjmd89\GraphQLGraphQL\Type\Introspection;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use JsonSerializable;
 use ReflectionClass;
 use Throwable;

@@ -1,12 +1,12 @@
 <?php
-namespace GraphQL\Examples\Blog\Type;
+namespace pjmd89\GraphQL\Examples\Blog\Type;
 
-use GraphQL\Examples\Blog\AppContext;
-use GraphQL\Examples\Blog\Data\DataSource;
-use GraphQL\Examples\Blog\Types;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\ResolveInfo;
-use GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Examples\Blog\AppContext;
+use pjmd89\GraphQLGraphQL\Examples\Blog\Data\DataSource;
+use pjmd89\GraphQLGraphQL\Examples\Blog\Types;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ResolveInfo;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
 
 class QueryType extends ObjectType
 {

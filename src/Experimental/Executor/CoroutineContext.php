@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Experimental\Executor;
+namespace pjmd89\GraphQL\Experimental\Executor;
 
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\ResolveInfo;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ResolveInfo;
 
 /**
  * @internal

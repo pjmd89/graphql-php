@@ -7,7 +7,7 @@ which accepts configuration array in constructor:
 
 ```php
 <?php
-use GraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQL\Type\Definition\EnumType;
 
 $episodeEnum = new EnumType([
     'name' => 'Episode',
@@ -57,7 +57,7 @@ following shorthand for definition:
 
 ```php
 <?php
-use GraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQLGraphQL\Type\Definition\EnumType;
 
 $episodeEnum = new EnumType([
     'name' => 'Episode',
@@ -69,7 +69,7 @@ $episodeEnum = new EnumType([
 which is equivalent of:
 ```php
 <?php
-use GraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQLGraphQL\Type\Definition\EnumType;
 
 $episodeEnum = new EnumType([
     'name' => 'Episode',
@@ -86,7 +86,7 @@ which is in turn equivalent of the full form:
 
 ```php
 <?php
-use GraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQLGraphQL\Type\Definition\EnumType;
 
 $episodeEnum = new EnumType([
     'name' => 'Episode',
@@ -106,8 +106,8 @@ then serialize this **value** to **name** to include in response:
 
 ```php
 <?php
-use GraphQL\Type\Definition\EnumType;
-use GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
 
 $episodeEnum = new EnumType([
     'name' => 'Episode',
@@ -147,8 +147,8 @@ GraphQL will treat enum input as **name** and convert it into **value** before p
 For example, given object type definition:
 ```php
 <?php
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
 
 $heroType = new ObjectType([
     'name' => 'Hero',

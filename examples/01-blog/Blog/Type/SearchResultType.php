@@ -1,10 +1,10 @@
 <?php
-namespace GraphQL\Examples\Blog\Type;
+namespace pjmd89\GraphQL\Examples\Blog\Type;
 
-use GraphQL\Examples\Blog\Data\Story;
-use GraphQL\Examples\Blog\Data\User;
-use GraphQL\Examples\Blog\Types;
-use GraphQL\Type\Definition\UnionType;
+use pjmd89\GraphQL\Examples\Blog\Data\Story;
+use pjmd89\GraphQLGraphQL\Examples\Blog\Data\User;
+use pjmd89\GraphQLGraphQL\Examples\Blog\Types;
+use pjmd89\GraphQLGraphQL\Type\Definition\UnionType;
 
 class SearchResultType extends UnionType
 {

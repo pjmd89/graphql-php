@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Type;
+namespace pjmd89\GraphQL\Type;
 
-use GraphQL\Language\AST\SchemaDefinitionNode;
-use GraphQL\Language\AST\SchemaTypeExtensionNode;
-use GraphQL\Type\Definition\Directive;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Language\AST\SchemaDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\SchemaTypeExtensionNode;
+use pjmd89\GraphQLGraphQL\Type\Definition\Directive;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use function is_callable;
 
 /**

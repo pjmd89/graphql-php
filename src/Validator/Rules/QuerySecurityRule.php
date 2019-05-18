@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Validator\Rules;
+namespace pjmd89\GraphQL\Validator\Rules;
 
 use ArrayObject;
-use GraphQL\Language\AST\FieldNode;
-use GraphQL\Language\AST\FragmentDefinitionNode;
-use GraphQL\Language\AST\FragmentSpreadNode;
-use GraphQL\Language\AST\InlineFragmentNode;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\AST\SelectionSetNode;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Introspection;
-use GraphQL\Utils\TypeInfo;
-use GraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Language\AST\FieldNode;
+use pjmd89\GraphQLGraphQL\Language\AST\FragmentDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\FragmentSpreadNode;
+use pjmd89\GraphQLGraphQL\Language\AST\InlineFragmentNode;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQLGraphQL\Language\AST\SelectionSetNode;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Introspection;
+use pjmd89\GraphQLGraphQL\Utils\TypeInfo;
+use pjmd89\GraphQLGraphQL\Validator\ValidationContext;
 use InvalidArgumentException;
 use function class_alias;
 use function method_exists;

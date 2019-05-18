@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Language;
+namespace pjmd89\GraphQL\Language;
 
-use GraphQL\Error\SyntaxError;
-use GraphQL\Utils\BlockString;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\SyntaxError;
+use pjmd89\GraphQLGraphQL\Utils\BlockString;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use function chr;
 use function hexdec;
 use function ord;

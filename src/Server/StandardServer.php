@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Server;
+namespace pjmd89\GraphQL\Server;
 
-use GraphQL\Error\FormattedError;
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Executor\ExecutionResult;
-use GraphQL\Executor\Promise\Promise;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\FormattedError;
+use pjmd89\GraphQLGraphQL\Error\InvariantViolation;
+use pjmd89\GraphQLGraphQL\Executor\ExecutionResult;
+use pjmd89\GraphQLGraphQL\Executor\Promise\Promise;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\StreamInterface;

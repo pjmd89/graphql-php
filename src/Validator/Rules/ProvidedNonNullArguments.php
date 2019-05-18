@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Validator\Rules;
+namespace pjmd89\GraphQL\Validator\Rules;
 
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\DirectiveNode;
-use GraphQL\Language\AST\FieldNode;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\Visitor;
-use GraphQL\Type\Definition\NonNull;
-use GraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\AST\DirectiveNode;
+use pjmd89\GraphQLGraphQL\Language\AST\FieldNode;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQLGraphQL\Language\Visitor;
+use pjmd89\GraphQLGraphQL\Type\Definition\NonNull;
+use pjmd89\GraphQLGraphQL\Validator\ValidationContext;
 use function sprintf;
 
 class ProvidedNonNullArguments extends ValidationRule

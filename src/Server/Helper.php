@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Server;
+namespace pjmd89\GraphQL\Server;
 
-use GraphQL\Error\Error;
-use GraphQL\Error\FormattedError;
-use GraphQL\Error\InvariantViolation;
-use GraphQL\Executor\ExecutionResult;
-use GraphQL\Executor\Executor;
-use GraphQL\Executor\Promise\Adapter\SyncPromiseAdapter;
-use GraphQL\Executor\Promise\Promise;
-use GraphQL\Executor\Promise\PromiseAdapter;
-use GraphQL\GraphQL;
-use GraphQL\Language\AST\DocumentNode;
-use GraphQL\Language\Parser;
-use GraphQL\Utils\AST;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Error\FormattedError;
+use pjmd89\GraphQLGraphQL\Error\InvariantViolation;
+use pjmd89\GraphQLGraphQL\Executor\ExecutionResult;
+use pjmd89\GraphQLGraphQL\Executor\Executor;
+use pjmd89\GraphQLGraphQL\Executor\Promise\Adapter\SyncPromiseAdapter;
+use pjmd89\GraphQLGraphQL\Executor\Promise\Promise;
+use pjmd89\GraphQLGraphQL\Executor\Promise\PromiseAdapter;
+use pjmd89\GraphQLGraphQL\GraphQL;
+use pjmd89\GraphQLGraphQL\Language\AST\DocumentNode;
+use pjmd89\GraphQLGraphQL\Language\Parser;
+use pjmd89\GraphQLGraphQL\Utils\AST;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use JsonSerializable;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;

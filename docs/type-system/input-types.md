@@ -18,8 +18,8 @@ To execute such a mutation, you need **Mutation** type [at the root of your sche
 
 ```php
 <?php
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
 
 $myMutationType = new ObjectType([
     'name' => 'Mutation',
@@ -74,8 +74,8 @@ In graphql-php **Input Object Type** is an instance of `GraphQL\Type\Definition\
 
 ```php
 <?php
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\InputObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Definition\InputObjectType;
 
 $filters = new InputObjectType([
     'name' => 'StoryFiltersInput',
@@ -121,8 +121,8 @@ In the example above we defined our InputObjectType. Now let's use it in one of 
 
 ```php
 <?php
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
 
 $queryType = new ObjectType([
     'name' => 'Query',

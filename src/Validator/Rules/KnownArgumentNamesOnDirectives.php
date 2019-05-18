@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Validator\Rules;
+namespace pjmd89\GraphQL\Validator\Rules;
 
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\DirectiveDefinitionNode;
-use GraphQL\Language\AST\DirectiveNode;
-use GraphQL\Language\AST\InputValueDefinitionNode;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\AST\NodeList;
-use GraphQL\Type\Definition\Directive;
-use GraphQL\Type\Definition\FieldArgument;
-use GraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\AST\DirectiveDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\DirectiveNode;
+use pjmd89\GraphQLGraphQL\Language\AST\InputValueDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeList;
+use pjmd89\GraphQLGraphQL\Type\Definition\Directive;
+use pjmd89\GraphQLGraphQL\Type\Definition\FieldArgument;
+use pjmd89\GraphQLGraphQL\Validator\ValidationContext;
 use function array_map;
 use function in_array;
 use function iterator_to_array;

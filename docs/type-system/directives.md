@@ -35,10 +35,10 @@ In **graphql-php** custom directive is an instance of `GraphQL\Type\Definition\D
 
 ```php
 <?php
-use GraphQL\Language\DirectiveLocation;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\Directive;
-use GraphQL\Type\Definition\FieldArgument;
+use pjmd89\GraphQL\Language\DirectiveLocation;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Definition\Directive;
+use pjmd89\GraphQLGraphQL\Type\Definition\FieldArgument;
 
 $trackDirective = new Directive([
     'name' => 'track',

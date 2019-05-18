@@ -27,7 +27,7 @@ In order to create schema instance out of this file, use
 
 ```php
 <?php
-use GraphQL\Utils\BuildSchema;
+use pjmd89\GraphQL\Utils\BuildSchema;
 
 $contents = file_get_contents('schema.graphql');
 $schema = BuildSchema::build($contents);
@@ -50,7 +50,7 @@ It accepts default type config produced by the builder and is expected to add mi
 
 ```php
 <?php
-use GraphQL\Utils\BuildSchema;
+use pjmd89\GraphQLGraphQL\Utils\BuildSchema;
 
 $typeConfigDecorator = function($typeConfig, $typeDefinitionNode) {
     $name = $typeConfig['name'];
@@ -73,9 +73,9 @@ intermediate parsed representation of the schema for the production environment:
 
 ```php
 <?php
-use GraphQL\Language\Parser;
-use GraphQL\Utils\BuildSchema;
-use GraphQL\Utils\AST;
+use pjmd89\GraphQLGraphQL\Language\Parser;
+use pjmd89\GraphQLGraphQL\Utils\BuildSchema;
+use pjmd89\GraphQLGraphQL\Utils\AST;
 
 $cacheFilename = 'cached_schema.php';
 

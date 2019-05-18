@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Type;
+namespace pjmd89\GraphQL\Type;
 
 use Generator;
-use GraphQL\Error\Error;
-use GraphQL\Error\InvariantViolation;
-use GraphQL\GraphQL;
-use GraphQL\Language\AST\SchemaDefinitionNode;
-use GraphQL\Language\AST\SchemaTypeExtensionNode;
-use GraphQL\Type\Definition\AbstractType;
-use GraphQL\Type\Definition\Directive;
-use GraphQL\Type\Definition\InterfaceType;
-use GraphQL\Type\Definition\ObjectType;
-use GraphQL\Type\Definition\Type;
-use GraphQL\Type\Definition\UnionType;
-use GraphQL\Utils\TypeInfo;
-use GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Error\InvariantViolation;
+use pjmd89\GraphQLGraphQL\GraphQL;
+use pjmd89\GraphQLGraphQL\Language\AST\SchemaDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\SchemaTypeExtensionNode;
+use pjmd89\GraphQLGraphQL\Type\Definition\AbstractType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Directive;
+use pjmd89\GraphQLGraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQLGraphQL\Type\Definition\UnionType;
+use pjmd89\GraphQLGraphQL\Utils\TypeInfo;
+use pjmd89\GraphQLGraphQL\Utils\Utils;
 use Traversable;
 use function array_values;
 use function implode;

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace GraphQL\Validator\Rules;
+namespace pjmd89\GraphQL\Validator\Rules;
 
-use GraphQL\Error\Error;
-use GraphQL\Language\AST\NodeKind;
-use GraphQL\Language\AST\OperationDefinitionNode;
-use GraphQL\Language\AST\VariableDefinitionNode;
-use GraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQLGraphQL\Language\AST\OperationDefinitionNode;
+use pjmd89\GraphQLGraphQL\Language\AST\VariableDefinitionNode;
+use pjmd89\GraphQLGraphQL\Validator\ValidationContext;
 use function sprintf;
 
 class NoUnusedVariables extends ValidationRule
