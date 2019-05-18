@@ -6,7 +6,7 @@
 require_once __DIR__ . '/../../vendor/autoload.php';
 
 use pjmd89\GraphQL\GraphQL;
-use pjmd89\GraphQLGraphQL\Utils\BuildSchema;
+use pjmd89\GraphQL\Utils\BuildSchema;
 
 try {
 

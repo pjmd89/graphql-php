@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Language;
 
 use pjmd89\GraphQL\Error\SyntaxError;
-use pjmd89\GraphQLGraphQL\Utils\BlockString;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Utils\BlockString;
+use pjmd89\GraphQL\Utils\Utils;
 use function chr;
 use function hexdec;
 use function ord;

@@ -6,9 +6,9 @@ namespace pjmd89\GraphQL\Error;
 
 use Exception;
 use pjmd89\GraphQL\Language\AST\Node;
-use pjmd89\GraphQLGraphQL\Language\Source;
-use pjmd89\GraphQLGraphQL\Language\SourceLocation;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Language\Source;
+use pjmd89\GraphQL\Language\SourceLocation;
+use pjmd89\GraphQL\Utils\Utils;
 use JsonSerializable;
 use Throwable;
 use Traversable;

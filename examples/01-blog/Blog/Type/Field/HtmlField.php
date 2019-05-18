@@ -2,7 +2,7 @@
 namespace pjmd89\GraphQL\Examples\Blog\Type\Field;
 
 use pjmd89\GraphQL\Examples\Blog\Type\Enum\ContentFormatEnum;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Types;
+use pjmd89\GraphQL\Examples\Blog\Types;
 
 class HtmlField
 {

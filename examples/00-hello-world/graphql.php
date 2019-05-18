@@ -6,9 +6,9 @@
 require_once __DIR__ . '/../../vendor/autoload.php';
 
 use pjmd89\GraphQL\Type\Definition\ObjectType;
-use pjmd89\GraphQLGraphQL\Type\Definition\Type;
-use pjmd89\GraphQLGraphQL\Type\Schema;
-use pjmd89\GraphQLGraphQL\GraphQL;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Schema;
+use pjmd89\GraphQL\GraphQL;
 
 try {
     $queryType = new ObjectType([

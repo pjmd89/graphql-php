@@ -5,12 +5,12 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Validator\Rules;
 
 use pjmd89\GraphQL\Error\Error;
-use pjmd89\GraphQLGraphQL\Language\AST\ArgumentNode;
-use pjmd89\GraphQLGraphQL\Language\AST\Node;
-use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
-use pjmd89\GraphQLGraphQL\Language\AST\NodeList;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
-use pjmd89\GraphQLGraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Language\AST\ArgumentNode;
+use pjmd89\GraphQL\Language\AST\Node;
+use pjmd89\GraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQL\Language\AST\NodeList;
+use pjmd89\GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Validator\ValidationContext;
 use function array_map;
 use function count;
 use function sprintf;

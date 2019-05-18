@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Experimental\Executor;
 
 use pjmd89\GraphQL\Language\AST\FieldNode;
-use pjmd89\GraphQLGraphQL\Language\AST\SelectionSetNode;
-use pjmd89\GraphQLGraphQL\Language\AST\ValueNode;
-use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
-use pjmd89\GraphQLGraphQL\Type\Definition\ResolveInfo;
+use pjmd89\GraphQL\Language\AST\SelectionSetNode;
+use pjmd89\GraphQL\Language\AST\ValueNode;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\ResolveInfo;
 
 /**
  * @internal

@@ -12,9 +12,9 @@ In **graphql-php** object type is an instance of `GraphQL\Type\Definition\Object
 namespace MyApp;
 
 use pjmd89\GraphQL\Type\Definition\ObjectType;
-use pjmd89\GraphQLGraphQL\Type\Definition\Type;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Data\DataSource;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Data\Story;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Examples\Blog\Data\DataSource;
+use pjmd89\GraphQL\Examples\Blog\Data\Story;
 
 $userType = new ObjectType([
     'name' => 'User',
@@ -130,8 +130,8 @@ option **fields** (and/or **interfaces**).
 For example:
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\Type\Definition\Type;
-use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
 
 $userType = null;
 
@@ -155,8 +155,8 @@ Same example for [inheritance style of type definitions](index.md#type-definitio
 <?php
 namespace MyApp;
 
-use pjmd89\GraphQLGraphQL\Type\Definition\Type;
-use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
 
 class UserType extends ObjectType
 {

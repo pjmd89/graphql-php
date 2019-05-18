@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Executor\Promise;
 
 use pjmd89\GraphQL\Executor\Promise\Adapter\SyncPromise;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Utils\Utils;
 use React\Promise\Promise as ReactPromise;
 
 /**

@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Experimental\Executor;
 
 use pjmd89\GraphQL\Type\Definition\ObjectType;
-use pjmd89\GraphQLGraphQL\Type\Definition\ResolveInfo;
+use pjmd89\GraphQL\Type\Definition\ResolveInfo;
 
 /**
  * @internal

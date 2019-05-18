@@ -2,11 +2,11 @@
 namespace pjmd89\GraphQL\Examples\Blog\Type;
 
 use pjmd89\GraphQL\Examples\Blog\AppContext;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Data\Comment;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Data\DataSource;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Types;
-use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
-use pjmd89\GraphQLGraphQL\Type\Definition\ResolveInfo;
+use pjmd89\GraphQL\Examples\Blog\Data\Comment;
+use pjmd89\GraphQL\Examples\Blog\Data\DataSource;
+use pjmd89\GraphQL\Examples\Blog\Types;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\ResolveInfo;
 
 class CommentType extends ObjectType
 {

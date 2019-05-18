@@ -113,7 +113,7 @@ Same example expressed in **graphql-php**:
 ```php
 <?php
 use pjmd89\GraphQL\Type\Definition\Type;
-use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
 
 $userType = new ObjectType([
     'name' => 'User',

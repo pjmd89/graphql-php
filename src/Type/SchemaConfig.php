@@ -5,11 +5,11 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Type;
 
 use pjmd89\GraphQL\Language\AST\SchemaDefinitionNode;
-use pjmd89\GraphQLGraphQL\Language\AST\SchemaTypeExtensionNode;
-use pjmd89\GraphQLGraphQL\Type\Definition\Directive;
-use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
-use pjmd89\GraphQLGraphQL\Type\Definition\Type;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Language\AST\SchemaTypeExtensionNode;
+use pjmd89\GraphQL\Type\Definition\Directive;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Utils\Utils;
 use function is_callable;
 
 /**

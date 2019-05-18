@@ -2,10 +2,10 @@
 namespace pjmd89\GraphQL\Examples\Blog\Type;
 
 use pjmd89\GraphQL\Examples\Blog\Data\Story;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Data\User;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Data\Image;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Types;
-use pjmd89\GraphQLGraphQL\Type\Definition\InterfaceType;
+use pjmd89\GraphQL\Examples\Blog\Data\User;
+use pjmd89\GraphQL\Examples\Blog\Data\Image;
+use pjmd89\GraphQL\Examples\Blog\Types;
+use pjmd89\GraphQL\Type\Definition\InterfaceType;
 
 class NodeType extends InterfaceType
 {

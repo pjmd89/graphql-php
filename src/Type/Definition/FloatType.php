@@ -6,10 +6,10 @@ namespace pjmd89\GraphQL\Type\Definition;
 
 use Exception;
 use pjmd89\GraphQL\Error\Error;
-use pjmd89\GraphQLGraphQL\Language\AST\FloatValueNode;
-use pjmd89\GraphQLGraphQL\Language\AST\IntValueNode;
-use pjmd89\GraphQLGraphQL\Language\AST\Node;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Language\AST\FloatValueNode;
+use pjmd89\GraphQL\Language\AST\IntValueNode;
+use pjmd89\GraphQL\Language\AST\Node;
+use pjmd89\GraphQL\Utils\Utils;
 use function is_numeric;
 
 class FloatType extends ScalarType

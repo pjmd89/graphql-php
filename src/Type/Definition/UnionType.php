@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Type\Definition;
 
 use pjmd89\GraphQL\Error\InvariantViolation;
-use pjmd89\GraphQLGraphQL\Language\AST\UnionTypeDefinitionNode;
-use pjmd89\GraphQLGraphQL\Language\AST\UnionTypeExtensionNode;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Language\AST\UnionTypeDefinitionNode;
+use pjmd89\GraphQL\Language\AST\UnionTypeExtensionNode;
+use pjmd89\GraphQL\Utils\Utils;
 use function call_user_func;
 use function is_array;
 use function is_callable;

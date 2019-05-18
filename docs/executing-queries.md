@@ -55,7 +55,7 @@ Usage example (with plain PHP):
 
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\Server\StandardServer;
+use pjmd89\GraphQL\Server\StandardServer;
 
 $server = new StandardServer([/* server options, see below */]);
 $server->handleRequest(); // parses PHP globals and emits response
@@ -64,8 +64,8 @@ $server->handleRequest(); // parses PHP globals and emits response
 Server also supports [PSR-7 request/response interfaces](http://www.php-fig.org/psr/psr-7/):
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\Server\StandardServer;
-use pjmd89\GraphQLGraphQL\Executor\ExecutionResult;
+use pjmd89\GraphQL\Server\StandardServer;
+use pjmd89\GraphQL\Executor\ExecutionResult;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
@@ -114,8 +114,8 @@ use [`GraphQL\Server\ServerConfig`](reference.md#graphqlserverserverconfig) inst
 
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\Server\ServerConfig;
-use pjmd89\GraphQLGraphQL\Server\StandardServer;
+use pjmd89\GraphQL\Server\ServerConfig;
+use pjmd89\GraphQL\Server\StandardServer;
 
 $config = ServerConfig::create()
     ->setSchema($schema)
@@ -150,7 +150,7 @@ So for example following batch will require single DB request (if user field is 
 To enable query batching, pass **queryBatching** option in server config:
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\Server\StandardServer;
+use pjmd89\GraphQL\Server\StandardServer;
 
 $server = new StandardServer([
     'queryBatching' => true
@@ -164,8 +164,8 @@ It is possible to override standard set of rules globally or per execution.
 Add rules globally:
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\Validator\Rules;
-use pjmd89\GraphQLGraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQL\Validator\Rules;
+use pjmd89\GraphQL\Validator\DocumentValidator;
 
 // Add to standard set of rules globally:
 DocumentValidator::addRule(new Rules\DisableIntrospection());
@@ -174,8 +174,8 @@ DocumentValidator::addRule(new Rules\DisableIntrospection());
 Custom rules per execution:
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\GraphQL;
-use pjmd89\GraphQLGraphQL\Validator\Rules;
+use pjmd89\GraphQL\GraphQL;
+use pjmd89\GraphQL\Validator\Rules;
 
 $myValiationRules = array_merge(
     GraphQL::getStandardValidationRules(),
@@ -200,7 +200,7 @@ $result = GraphQL::executeQuery(
 Or with a standard server:
 ```php
 <?php 
-use pjmd89\GraphQLGraphQL\Server\StandardServer;
+use pjmd89\GraphQL\Server\StandardServer;
 
 $server = new StandardServer([
     'validationRules' => $myValiationRules

@@ -6,7 +6,7 @@ namespace pjmd89\GraphQL\Executor\Promise\Adapter;
 
 use Exception;
 use pjmd89\GraphQL\Executor\ExecutionResult;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Utils\Utils;
 use SplQueue;
 use Throwable;
 use function is_object;

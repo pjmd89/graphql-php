@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Server;
 
 use pjmd89\GraphQL\Error\FormattedError;
-use pjmd89\GraphQLGraphQL\Error\InvariantViolation;
-use pjmd89\GraphQLGraphQL\Executor\ExecutionResult;
-use pjmd89\GraphQLGraphQL\Executor\Promise\Promise;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQL\Executor\ExecutionResult;
+use pjmd89\GraphQL\Executor\Promise\Promise;
+use pjmd89\GraphQL\Utils\Utils;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\StreamInterface;

@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Type\Definition;
 
 use pjmd89\GraphQL\Language\AST\DirectiveDefinitionNode;
-use pjmd89\GraphQLGraphQL\Language\DirectiveLocation;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Language\DirectiveLocation;
+use pjmd89\GraphQL\Utils\Utils;
 use function array_key_exists;
 use function array_keys;
 use function in_array;

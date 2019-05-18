@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Type\Definition;
 
 use pjmd89\GraphQL\Error\Error;
-use pjmd89\GraphQLGraphQL\Error\InvariantViolation;
-use pjmd89\GraphQLGraphQL\Language\AST\InputValueDefinitionNode;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQL\Language\AST\InputValueDefinitionNode;
+use pjmd89\GraphQL\Utils\Utils;
 use function sprintf;
 
 class InputObjectField

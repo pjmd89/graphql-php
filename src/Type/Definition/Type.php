@@ -6,10 +6,10 @@ namespace pjmd89\GraphQL\Type\Definition;
 
 use Exception;
 use pjmd89\GraphQL\Error\InvariantViolation;
-use pjmd89\GraphQLGraphQL\Language\AST\TypeDefinitionNode;
-use pjmd89\GraphQLGraphQL\Language\AST\TypeExtensionNode;
-use pjmd89\GraphQLGraphQL\Type\Introspection;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Language\AST\TypeDefinitionNode;
+use pjmd89\GraphQL\Language\AST\TypeExtensionNode;
+use pjmd89\GraphQL\Type\Introspection;
+use pjmd89\GraphQL\Utils\Utils;
 use JsonSerializable;
 use ReflectionClass;
 use Throwable;

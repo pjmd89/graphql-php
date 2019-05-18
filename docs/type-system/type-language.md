@@ -50,7 +50,7 @@ It accepts default type config produced by the builder and is expected to add mi
 
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\Utils\BuildSchema;
+use pjmd89\GraphQL\Utils\BuildSchema;
 
 $typeConfigDecorator = function($typeConfig, $typeDefinitionNode) {
     $name = $typeConfig['name'];
@@ -73,9 +73,9 @@ intermediate parsed representation of the schema for the production environment:
 
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\Language\Parser;
-use pjmd89\GraphQLGraphQL\Utils\BuildSchema;
-use pjmd89\GraphQLGraphQL\Utils\AST;
+use pjmd89\GraphQL\Language\Parser;
+use pjmd89\GraphQL\Utils\BuildSchema;
+use pjmd89\GraphQL\Utils\AST;
 
 $cacheFilename = 'cached_schema.php';
 

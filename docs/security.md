@@ -13,8 +13,8 @@ Complexity analysis is disabled by default. To enabled it, add validation rule:
 ```php
 <?php
 use pjmd89\GraphQL\GraphQL;
-use pjmd89\GraphQLGraphQL\Validator\Rules\QueryComplexity;
-use pjmd89\GraphQLGraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQL\Validator\Rules\QueryComplexity;
+use pjmd89\GraphQL\Validator\DocumentValidator;
 
 $rule = new QueryComplexity($maxQueryComplexity = 100);
 DocumentValidator::addRule($rule);
@@ -26,8 +26,8 @@ This will set the rule globally. Alternatively, you can provide validation rules
 To customize field score add **complexity** function to field definition:
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\Type\Definition\Type;
-use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
 
 $type = new ObjectType([
     'name' => 'MyType',
@@ -57,9 +57,9 @@ It is disabled by default. To enable it, add following validation rule:
 
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\GraphQL;
-use pjmd89\GraphQLGraphQL\Validator\Rules\QueryDepth;
-use pjmd89\GraphQLGraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQL\GraphQL;
+use pjmd89\GraphQL\Validator\Rules\QueryDepth;
+use pjmd89\GraphQL\Validator\DocumentValidator;
 
 $rule = new QueryDepth($maxDepth = 10);
 DocumentValidator::addRule($rule);
@@ -83,9 +83,9 @@ GraphQL PHP provides you separate validation rule which prohibits queries that c
 
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\GraphQL;
-use pjmd89\GraphQLGraphQL\Validator\Rules\DisableIntrospection;
-use pjmd89\GraphQLGraphQL\Validator\DocumentValidator;
+use pjmd89\GraphQL\GraphQL;
+use pjmd89\GraphQL\Validator\Rules\DisableIntrospection;
+use pjmd89\GraphQL\Validator\DocumentValidator;
 
 DocumentValidator::addRule(new DisableIntrospection());
 

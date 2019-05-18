@@ -6,9 +6,9 @@ namespace pjmd89\GraphQL\Type\Definition;
 
 use Exception;
 use pjmd89\GraphQL\Error\InvariantViolation;
-use pjmd89\GraphQLGraphQL\Language\AST\ObjectTypeDefinitionNode;
-use pjmd89\GraphQLGraphQL\Language\AST\ObjectTypeExtensionNode;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Language\AST\ObjectTypeDefinitionNode;
+use pjmd89\GraphQL\Language\AST\ObjectTypeExtensionNode;
+use pjmd89\GraphQL\Utils\Utils;
 use function call_user_func;
 use function is_array;
 use function is_callable;

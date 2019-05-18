@@ -5,12 +5,12 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Utils;
 
 use pjmd89\GraphQL\Type\Definition\AbstractType;
-use pjmd89\GraphQLGraphQL\Type\Definition\CompositeType;
-use pjmd89\GraphQLGraphQL\Type\Definition\ListOfType;
-use pjmd89\GraphQLGraphQL\Type\Definition\NonNull;
-use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
-use pjmd89\GraphQLGraphQL\Type\Definition\Type;
-use pjmd89\GraphQLGraphQL\Type\Schema;
+use pjmd89\GraphQL\Type\Definition\CompositeType;
+use pjmd89\GraphQL\Type\Definition\ListOfType;
+use pjmd89\GraphQL\Type\Definition\NonNull;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Schema;
 
 class TypeComparators
 {

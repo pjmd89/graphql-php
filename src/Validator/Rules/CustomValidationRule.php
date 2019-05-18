@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Validator\Rules;
 
 use pjmd89\GraphQL\Error\Error;
-use pjmd89\GraphQLGraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Validator\ValidationContext;
 
 class CustomValidationRule extends ValidationRule
 {

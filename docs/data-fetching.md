@@ -56,8 +56,8 @@ Since **lastStory** is of composite type **BlogStory** this result is passed dow
 
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\Type\Definition\Type;
-use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
 
 $blogStoryType = new ObjectType([
   'name' => 'BlogStory',
@@ -133,9 +133,9 @@ Sometimes it might be convenient to set default field resolver per type. You can
 
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\Type\Definition\Type;
-use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
-use pjmd89\GraphQLGraphQL\Type\Definition\ResolveInfo;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\ResolveInfo;
 
 $userType = new ObjectType([
   'name' => 'User',
@@ -243,8 +243,8 @@ To start using this feature, switch facade method for query execution from
 
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\GraphQL;
-use pjmd89\GraphQLGraphQL\Executor\ExecutionResult;
+use pjmd89\GraphQL\GraphQL;
+use pjmd89\GraphQL\Executor\ExecutionResult;
 
 $promise = GraphQL::promiseToExecute(
     $promiseAdapter,

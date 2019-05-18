@@ -5,12 +5,12 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Type\Definition;
 
 use pjmd89\GraphQL\Language\AST\FieldNode;
-use pjmd89\GraphQLGraphQL\Language\AST\FragmentDefinitionNode;
-use pjmd89\GraphQLGraphQL\Language\AST\FragmentSpreadNode;
-use pjmd89\GraphQLGraphQL\Language\AST\InlineFragmentNode;
-use pjmd89\GraphQLGraphQL\Language\AST\OperationDefinitionNode;
-use pjmd89\GraphQLGraphQL\Language\AST\SelectionSetNode;
-use pjmd89\GraphQLGraphQL\Type\Schema;
+use pjmd89\GraphQL\Language\AST\FragmentDefinitionNode;
+use pjmd89\GraphQL\Language\AST\FragmentSpreadNode;
+use pjmd89\GraphQL\Language\AST\InlineFragmentNode;
+use pjmd89\GraphQL\Language\AST\OperationDefinitionNode;
+use pjmd89\GraphQL\Language\AST\SelectionSetNode;
+use pjmd89\GraphQL\Type\Schema;
 use function array_merge_recursive;
 
 /**

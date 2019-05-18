@@ -2,9 +2,9 @@
 namespace pjmd89\GraphQL\Examples\Blog\Type;
 
 use pjmd89\GraphQL\Examples\Blog\Data\Story;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Data\User;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Types;
-use pjmd89\GraphQLGraphQL\Type\Definition\UnionType;
+use pjmd89\GraphQL\Examples\Blog\Data\User;
+use pjmd89\GraphQL\Examples\Blog\Types;
+use pjmd89\GraphQL\Type\Definition\UnionType;
 
 class SearchResultType extends UnionType
 {

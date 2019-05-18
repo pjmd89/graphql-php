@@ -2,9 +2,9 @@
 namespace pjmd89\GraphQL\Examples\Blog\Type\Scalar;
 
 use pjmd89\GraphQL\Error\Error;
-use pjmd89\GraphQLGraphQL\Language\AST\StringValueNode;
-use pjmd89\GraphQLGraphQL\Type\Definition\CustomScalarType;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Language\AST\StringValueNode;
+use pjmd89\GraphQL\Type\Definition\CustomScalarType;
+use pjmd89\GraphQL\Utils\Utils;
 
 class EmailType
 {

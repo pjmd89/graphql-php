@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Server;
 
 use pjmd89\GraphQL\Error\InvariantViolation;
-use pjmd89\GraphQLGraphQL\Executor\Promise\PromiseAdapter;
-use pjmd89\GraphQLGraphQL\Type\Schema;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
-use pjmd89\GraphQLGraphQL\Validator\Rules\ValidationRule;
+use pjmd89\GraphQL\Executor\Promise\PromiseAdapter;
+use pjmd89\GraphQL\Type\Schema;
+use pjmd89\GraphQL\Utils\Utils;
+use pjmd89\GraphQL\Validator\Rules\ValidationRule;
 use function is_array;
 use function is_callable;
 use function method_exists;

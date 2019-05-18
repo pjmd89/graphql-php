@@ -6,8 +6,8 @@ namespace pjmd89\GraphQL\Type\Definition;
 
 use Exception;
 use pjmd89\GraphQL\Language\AST\Node;
-use pjmd89\GraphQLGraphQL\Utils\AST;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Utils\AST;
+use pjmd89\GraphQL\Utils\Utils;
 use function call_user_func;
 use function is_callable;
 use function sprintf;

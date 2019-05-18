@@ -6,11 +6,11 @@ namespace pjmd89\GraphQL\Executor\Promise\Adapter;
 
 use Exception;
 use pjmd89\GraphQL\Deferred;
-use pjmd89\GraphQLGraphQL\Error\InvariantViolation;
-use pjmd89\GraphQLGraphQL\Executor\ExecutionResult;
-use pjmd89\GraphQLGraphQL\Executor\Promise\Promise;
-use pjmd89\GraphQLGraphQL\Executor\Promise\PromiseAdapter;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQL\Executor\ExecutionResult;
+use pjmd89\GraphQL\Executor\Promise\Promise;
+use pjmd89\GraphQL\Executor\Promise\PromiseAdapter;
+use pjmd89\GraphQL\Utils\Utils;
 use Throwable;
 use function count;
 

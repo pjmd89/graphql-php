@@ -5,13 +5,13 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Validator\Rules;
 
 use pjmd89\GraphQL\Error\Error;
-use pjmd89\GraphQLGraphQL\Language\AST\DocumentNode;
-use pjmd89\GraphQLGraphQL\Language\AST\FragmentDefinitionNode;
-use pjmd89\GraphQLGraphQL\Language\AST\Node;
-use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
-use pjmd89\GraphQLGraphQL\Language\AST\OperationDefinitionNode;
-use pjmd89\GraphQLGraphQL\Language\Visitor;
-use pjmd89\GraphQLGraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Language\AST\DocumentNode;
+use pjmd89\GraphQL\Language\AST\FragmentDefinitionNode;
+use pjmd89\GraphQL\Language\AST\Node;
+use pjmd89\GraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQL\Language\AST\OperationDefinitionNode;
+use pjmd89\GraphQL\Language\Visitor;
+use pjmd89\GraphQL\Validator\ValidationContext;
 use function sprintf;
 
 /**

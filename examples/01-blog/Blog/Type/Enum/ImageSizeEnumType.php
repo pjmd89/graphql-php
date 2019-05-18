@@ -2,7 +2,7 @@
 namespace pjmd89\GraphQL\Examples\Blog\Type\Enum;
 
 use pjmd89\GraphQL\Examples\Blog\Data\Image;
-use pjmd89\GraphQLGraphQL\Type\Definition\EnumType;
+use pjmd89\GraphQL\Type\Definition\EnumType;
 
 class ImageSizeEnumType extends EnumType
 {

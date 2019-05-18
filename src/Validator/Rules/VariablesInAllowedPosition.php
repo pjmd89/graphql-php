@@ -5,14 +5,14 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Validator\Rules;
 
 use pjmd89\GraphQL\Error\Error;
-use pjmd89\GraphQLGraphQL\Language\AST\NodeKind;
-use pjmd89\GraphQLGraphQL\Language\AST\OperationDefinitionNode;
-use pjmd89\GraphQLGraphQL\Language\AST\VariableDefinitionNode;
-use pjmd89\GraphQLGraphQL\Type\Definition\ListOfType;
-use pjmd89\GraphQLGraphQL\Type\Definition\NonNull;
-use pjmd89\GraphQLGraphQL\Utils\TypeComparators;
-use pjmd89\GraphQLGraphQL\Utils\TypeInfo;
-use pjmd89\GraphQLGraphQL\Validator\ValidationContext;
+use pjmd89\GraphQL\Language\AST\NodeKind;
+use pjmd89\GraphQL\Language\AST\OperationDefinitionNode;
+use pjmd89\GraphQL\Language\AST\VariableDefinitionNode;
+use pjmd89\GraphQL\Type\Definition\ListOfType;
+use pjmd89\GraphQL\Type\Definition\NonNull;
+use pjmd89\GraphQL\Utils\TypeComparators;
+use pjmd89\GraphQL\Utils\TypeInfo;
+use pjmd89\GraphQL\Validator\ValidationContext;
 use function sprintf;
 
 class VariablesInAllowedPosition extends ValidationRule

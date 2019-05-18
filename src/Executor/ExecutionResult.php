@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Executor;
 
 use pjmd89\GraphQL\Error\Error;
-use pjmd89\GraphQLGraphQL\Error\FormattedError;
+use pjmd89\GraphQL\Error\FormattedError;
 use JsonSerializable;
 use function array_map;
 

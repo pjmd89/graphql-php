@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Executor;
 
 use pjmd89\GraphQL\Error\Error;
-use pjmd89\GraphQLGraphQL\Executor\Promise\PromiseAdapter;
-use pjmd89\GraphQLGraphQL\Language\AST\FragmentDefinitionNode;
-use pjmd89\GraphQLGraphQL\Language\AST\OperationDefinitionNode;
-use pjmd89\GraphQLGraphQL\Type\Schema;
+use pjmd89\GraphQL\Executor\Promise\PromiseAdapter;
+use pjmd89\GraphQL\Language\AST\FragmentDefinitionNode;
+use pjmd89\GraphQL\Language\AST\OperationDefinitionNode;
+use pjmd89\GraphQL\Type\Schema;
 
 /**
  * Data that must be available at all points during query execution.

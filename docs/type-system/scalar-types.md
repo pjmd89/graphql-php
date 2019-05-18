@@ -42,11 +42,11 @@ Here is an example of a simple **Email** type:
 <?php
 namespace MyApp;
 
-use pjmd89\GraphQLGraphQL\Error\Error;
-use pjmd89\GraphQLGraphQL\Error\InvariantViolation;
-use pjmd89\GraphQLGraphQL\Language\AST\StringValueNode;
-use pjmd89\GraphQLGraphQL\Type\Definition\ScalarType;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Error\Error;
+use pjmd89\GraphQL\Error\InvariantViolation;
+use pjmd89\GraphQL\Language\AST\StringValueNode;
+use pjmd89\GraphQL\Type\Definition\ScalarType;
+use pjmd89\GraphQL\Utils\Utils;
 
 class EmailType extends ScalarType
 {
@@ -119,7 +119,7 @@ Or with inline style:
 
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\Type\Definition\CustomScalarType;
+use pjmd89\GraphQL\Type\Definition\CustomScalarType;
 
 $emailType = new CustomScalarType([
     'name' => 'Email',

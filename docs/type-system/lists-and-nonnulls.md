@@ -6,7 +6,7 @@ existing type with `GraphQL\Type\Definition\Type::listOf()` modifier:
 namespace MyApp;
 
 use pjmd89\GraphQL\Type\Definition\Type;
-use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
 
 $userType = new ObjectType([
     'name' => 'User',
@@ -33,8 +33,8 @@ returns **non-null** value - use `GraphQL\Type\Definition\Type::nonNull()` modif
 
 ```php
 <?php
-use pjmd89\GraphQLGraphQL\Type\Definition\Type;
-use pjmd89\GraphQLGraphQL\Type\Definition\ObjectType;
+use pjmd89\GraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Type\Definition\ObjectType;
 
 $humanType = new ObjectType([
     'name' => 'User',

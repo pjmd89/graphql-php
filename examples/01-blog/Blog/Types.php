@@ -2,20 +2,20 @@
 namespace pjmd89\GraphQL\Examples\Blog;
 
 use pjmd89\GraphQL\Examples\Blog\Type\CommentType;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Type\Enum\ContentFormatEnum;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Type\Enum\ImageSizeEnumType;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Type\Field\HtmlField;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Type\SearchResultType;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Type\NodeType;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Type\QueryType;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Type\Scalar\EmailType;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Type\StoryType;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Type\Scalar\UrlType;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Type\UserType;
-use pjmd89\GraphQLGraphQL\Examples\Blog\Type\ImageType;
-use pjmd89\GraphQLGraphQL\Type\Definition\ListOfType;
-use pjmd89\GraphQLGraphQL\Type\Definition\NonNull;
-use pjmd89\GraphQLGraphQL\Type\Definition\Type;
+use pjmd89\GraphQL\Examples\Blog\Type\Enum\ContentFormatEnum;
+use pjmd89\GraphQL\Examples\Blog\Type\Enum\ImageSizeEnumType;
+use pjmd89\GraphQL\Examples\Blog\Type\Field\HtmlField;
+use pjmd89\GraphQL\Examples\Blog\Type\SearchResultType;
+use pjmd89\GraphQL\Examples\Blog\Type\NodeType;
+use pjmd89\GraphQL\Examples\Blog\Type\QueryType;
+use pjmd89\GraphQL\Examples\Blog\Type\Scalar\EmailType;
+use pjmd89\GraphQL\Examples\Blog\Type\StoryType;
+use pjmd89\GraphQL\Examples\Blog\Type\Scalar\UrlType;
+use pjmd89\GraphQL\Examples\Blog\Type\UserType;
+use pjmd89\GraphQL\Examples\Blog\Type\ImageType;
+use pjmd89\GraphQL\Type\Definition\ListOfType;
+use pjmd89\GraphQL\Type\Definition\NonNull;
+use pjmd89\GraphQL\Type\Definition\Type;
 
 /**
  * Class Types

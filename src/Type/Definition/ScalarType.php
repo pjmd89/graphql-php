@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Type\Definition;
 
 use pjmd89\GraphQL\Language\AST\ScalarTypeDefinitionNode;
-use pjmd89\GraphQLGraphQL\Language\AST\ScalarTypeExtensionNode;
-use pjmd89\GraphQLGraphQL\Utils\Utils;
+use pjmd89\GraphQL\Language\AST\ScalarTypeExtensionNode;
+use pjmd89\GraphQL\Utils\Utils;
 use function is_string;
 
 /**

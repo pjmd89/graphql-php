@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace pjmd89\GraphQL\Language\AST;
 
 use pjmd89\GraphQL\Language\Source;
-use pjmd89\GraphQLGraphQL\Language\Token;
+use pjmd89\GraphQL\Language\Token;
 
 /**
  * Contains a range of UTF-8 character offsets and token references that
