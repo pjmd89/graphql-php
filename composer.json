@@ -1,9 +1,9 @@
 {
-  "name":              "webonyx/graphql-php",
-  "description":       "A PHP port of GraphQL reference implementation",
+  "name":              "pjmd89/graphql-php",
+  "description":       "Fork modified for webonyx/graphql-php",
   "type":              "library",
   "license":           "MIT",
-  "homepage":          "https://github.com/webonyx/graphql-php",
+  "homepage":          "https://github.com/pjmd89/graphql-php",
   "keywords":          [
     "graphql",
     "API"
@@ -30,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "GraphQL\\": "src/"
+      "pjmd89\\GraphQL\\": "src/"
     }
   },
   "autoload-dev": {
